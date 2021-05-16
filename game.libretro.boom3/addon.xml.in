@@ -15,7 +15,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Doom 3 (boom3) v1.5.0</summary>
-		<description lang="en_GB">Supported files: .pk4</description>
+		<description lang="en_GB">boom3 is a source code port of the Doom 3 codebase.
+
+Supported files: .pk4</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.boom3</source>
