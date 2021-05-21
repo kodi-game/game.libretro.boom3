@@ -22,11 +22,11 @@ msgid "Settings"
 msgstr "Настройки"
 
 msgctxt "#30001"
-msgid "Show FPS"
+msgid "Framerate (restart)"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Framerate (restart)"
+msgid "Internal resolution (restart)"
 msgstr ""
 
 msgctxt "#30003"
@@ -34,5 +34,5 @@ msgid "Invert Y Axis"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Internal resolution (restart)"
+msgid "Show FPS"
 msgstr ""
