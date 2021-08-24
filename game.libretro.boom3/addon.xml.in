@@ -18,6 +18,6 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.boom3</source>
 		<summary lang="en_GB">Doom 3 (boom3) v1.5.0</summary>
-		<description lang="en_GB">boom3 is a source code port of the Doom 3 codebase. See the documentation for a list of required files.</description>
+		<description lang="en_GB">boom3 is a source code port of the Doom 3 codebase.[CR][CR]Supported files: .pk4</description>
 	</extension>
 </addon>
