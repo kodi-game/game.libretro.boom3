@@ -17,6 +17,16 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.5.3\n"
 
+msgctxt "Addon Summary"
+msgid "Doom 3 (boom3) v1.5.0"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "boom3 is a source code port of the Doom 3 codebase.
+
+Supported files: .pk4"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr "Настройки"
