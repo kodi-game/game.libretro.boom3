@@ -21,7 +21,7 @@ msgid "Doom 3 (boom3) v1.5.0"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "boom3 is a source code port of the Doom 3 codebase.[CR][CR]Supported files: .pk4"
+msgid "boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files."
 msgstr ""
 
 msgctxt "#30000"
