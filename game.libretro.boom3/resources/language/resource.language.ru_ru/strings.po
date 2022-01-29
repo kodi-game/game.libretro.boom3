@@ -30,11 +30,11 @@ msgid "Settings"
 msgstr "Настройки"
 
 msgctxt "#30001"
-msgid "Framerate (restart)"
+msgid "Frame rate (Restart Required)"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Internal resolution (restart)"
+msgid "Internal resolution (Restart Required)"
 msgstr ""
 
 msgctxt "#30003"

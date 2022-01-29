@@ -30,12 +30,12 @@ msgid "Settings"
 msgstr "Indstillinger"
 
 msgctxt "#30001"
-msgid "Framerate (restart)"
-msgstr "Billedhastighed (genstart)"
+msgid "Frame rate (Restart Required)"
+msgstr ""
 
 msgctxt "#30002"
-msgid "Internal resolution (restart)"
-msgstr "Intern opløsning (genstart)"
+msgid "Internal resolution (Restart Required)"
+msgstr ""
 
 msgctxt "#30003"
 msgid "Invert Y Axis"
@@ -44,3 +44,11 @@ msgstr "Inverter Y-aksen"
 msgctxt "#30004"
 msgid "Show FPS"
 msgstr "Vis FPS"
+
+#~ msgctxt "#30001"
+#~ msgid "Framerate (restart)"
+#~ msgstr "Billedhastighed (genstart)"
+
+#~ msgctxt "#30002"
+#~ msgid "Internal resolution (restart)"
+#~ msgstr "Intern opløsning (genstart)"
