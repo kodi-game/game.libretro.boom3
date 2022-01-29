@@ -1,1 +1,1 @@
-boom3 https://github.com/libretro/boom3/archive/6e6afe95c0b6e0138f8bd7d0e4f27fa9ec05cea9.tar.gz
+boom3 https://github.com/libretro/boom3/archive/2d707b4260fa32a28cc0539f73a066f9108b37f1.tar.gz
