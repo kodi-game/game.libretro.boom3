@@ -23,7 +23,7 @@ msgstr ""
 
 msgctxt "Addon Description"
 msgid "boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files."
-msgstr ""
+msgstr "boom3 es una adaptación de código fuente del código base de Doom 3.[CR][CR]Consulta la documentación para ver la lista de archivos necesarios."
 
 msgctxt "Addon Disclaimer"
 msgid "Image credit: IMGBIN.com"
@@ -35,11 +35,11 @@ msgstr "Ajustes"
 
 msgctxt "#30001"
 msgid "Frame rate (Restart Required)"
-msgstr ""
+msgstr "Tasa de Fotogramas (requiere reinicio)"
 
 msgctxt "#30002"
 msgid "Internal resolution (Restart Required)"
-msgstr ""
+msgstr "Resolución Interna (requiere reinicio)"
 
 msgctxt "#30003"
 msgid "Invert Y Axis"
