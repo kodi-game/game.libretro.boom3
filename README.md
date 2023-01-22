@@ -24,7 +24,3 @@ Help make me fanart!
 ### Screenshots
 
 Help make me screenshots!
-
-### Disclaimer
-
-*Image credit: IMGBIN.com*
