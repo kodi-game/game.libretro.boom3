@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files."
 msgstr "boom3 er en port af kildekoden til Doom 3-kodebasen.[CR][CR]Se dokumentationen for en liste over nødvendige filer."
 
-msgctxt "Addon Disclaimer"
-msgid "Image credit: IMGBIN.com"
-msgstr ""
-
 msgctxt "#30000"
 msgid "Settings"
 msgstr "Indstillinger"
