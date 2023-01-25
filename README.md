@@ -15,7 +15,7 @@ GPLv2
 
 ### Icon
 
-![Icon](game.libretro.boom3/resources/icon.png)
+![Doom 3 (boom3) icon](game.libretro.boom3/resources/icon.png)
 
 ### Fanart
 
