@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.7.1\n"
 
 msgctxt "Addon Summary"
-msgid "Doom 3 (boom3) v1.5.0"
+msgid "Doom 3 (boom3)"
 msgstr ""
 
 msgctxt "Addon Description"
