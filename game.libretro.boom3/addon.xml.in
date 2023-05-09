@@ -21,6 +21,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<summary lang="da_DK">Doom 3 (boom3)</summary>
 		<summary lang="en_GB">Doom 3 (boom3)</summary>
 		<summary lang="es_ES">Doom 3 (boom3)</summary>
 		<description lang="da_DK">boom3 er en port af kildekoden til Doom 3-kodebasen.[CR][CR]Se dokumentationen for en liste over nødvendige filer.</description>
