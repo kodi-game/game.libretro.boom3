@@ -31,6 +31,7 @@
 		<description lang="en_GB">boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files.</description>
 		<description lang="es_ES">boom3 es una adaptación de código fuente del código base de Doom 3.[CR][CR]Consulta la documentación para ver la lista de archivos necesarios.</description>
 		<description lang="it_IT">boom3 è un port del codice sorgente del codebase di Doom 3.[CR][CR]Consulta la documentazione per un elenco dei file richiesti.</description>
+		<description lang="sl_SI">boom3 je vrata izvorne kode kodne baze Doom 3.[CR][CR]Glejte dokumentacijo za seznam zahtevanih datotek.</description>
 		<description lang="zh_CN">boom3 是 Doom 3 代码库的源代码移植。[CR][CR]有关所需文件的列表，请参阅文档。</description>
 	</extension>
 </addon>
