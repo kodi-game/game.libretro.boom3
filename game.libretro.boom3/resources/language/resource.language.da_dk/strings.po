@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files."
 msgstr "boom3 er en port af kildekoden til Doom 3-kodebasen.[CR][CR]Se dokumentationen for en liste over nødvendige filer."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Indstillinger"
-
 msgctxt "#30001"
 msgid "Frame rate (Restart Required)"
 msgstr "Billedhastighed (genstart påkrævet)"
@@ -44,6 +40,10 @@ msgstr "Inverter Y-aksen"
 msgctxt "#30004"
 msgid "Show FPS"
 msgstr "Vis FPS"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
 
 #~ msgctxt "#30001"
 #~ msgid "Framerate (restart)"

@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files."
 msgstr "boom3 è un port del codice sorgente del codebase di Doom 3.[CR][CR]Consulta la documentazione per un elenco dei file richiesti."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Impostazioni"
-
 msgctxt "#30001"
 msgid "Frame rate (Restart Required)"
 msgstr "Frequenza fotogrammi (riavvio richiesto)"
@@ -44,3 +40,7 @@ msgstr "Inverti asse y"
 msgctxt "#30004"
 msgid "Show FPS"
 msgstr "Mostra FPS"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
