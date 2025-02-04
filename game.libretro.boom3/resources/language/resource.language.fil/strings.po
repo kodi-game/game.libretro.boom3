@@ -1,0 +1,42 @@
+# game.libretro.boom3 language file
+# Addon Name: game.libretro.boom3
+# Addon id: game.libretro.boom3
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.boom3\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 03:06i\n"
+"PO-Revision-Date: 2020-01-30 03:06i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9);\n"
+
+msgctxt "Addon Summary"
+msgid "Doom 3 (boom3)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Frame rate (Restart Required)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Internal resolution (Restart Required)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Invert Y Axis"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Show FPS"
+msgstr ""
