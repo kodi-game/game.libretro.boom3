@@ -25,6 +25,7 @@
 		<summary lang="en_GB">Doom 3 (boom3)</summary>
 		<summary lang="es_ES">Doom 3 (boom3)</summary>
 		<summary lang="it_IT">Doom 3 (boom3)</summary>
+		<summary lang="sv_SE">Doom 3 (boom3)</summary>
 		<summary lang="zh_CN">Doom 3 (boom3)</summary>
 		<description lang="da_DK">boom3 er en port af kildekoden til Doom 3-kodebasen.[CR][CR]Se dokumentationen for en liste over nødvendige filer.</description>
 		<description lang="de_DE">boom3 ist eine Quellcode-Portierung der Doom-3-Codebasis.[CR][CR]Eine Liste der benötigten Dateien findet sich in der Dokumentation.</description>
@@ -32,6 +33,7 @@
 		<description lang="es_ES">boom3 es una adaptación de código fuente del código base de Doom 3.[CR][CR]Consulta la documentación para ver la lista de archivos necesarios.</description>
 		<description lang="it_IT">boom3 è un port del codice sorgente del codebase di Doom 3.[CR][CR]Consulta la documentazione per un elenco dei file richiesti.</description>
 		<description lang="sl_SI">boom3 je vrata izvorne kode kodne baze Doom 3.[CR][CR]Glejte dokumentacijo za seznam zahtevanih datotek.</description>
+		<description lang="sv_SE">boom3 är en källkodsport av kodbasen Doom 3.[CR][CR]Se dokumentationen för en lista över nödvändiga filer.</description>
 		<description lang="zh_CN">boom3 是 Doom 3 代码库的源代码移植。[CR][CR]有关所需文件的列表，请参阅文档。</description>
 	</extension>
 </addon>
