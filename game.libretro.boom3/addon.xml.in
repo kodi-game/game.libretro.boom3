@@ -24,6 +24,7 @@
 		<summary lang="da_DK">Doom 3 (boom3)</summary>
 		<summary lang="en_GB">Doom 3 (boom3)</summary>
 		<summary lang="es_ES">Doom 3 (boom3)</summary>
+		<summary lang="ga">Doom 3 (boom3)</summary>
 		<summary lang="it_IT">Doom 3 (boom3)</summary>
 		<summary lang="sv_SE">Doom 3 (boom3)</summary>
 		<summary lang="zh_CN">Doom 3 (boom3)</summary>
@@ -31,6 +32,7 @@
 		<description lang="de_DE">boom3 ist eine Quellcode-Portierung der Doom-3-Codebasis.[CR][CR]Eine Liste der benötigten Dateien findet sich in der Dokumentation.</description>
 		<description lang="en_GB">boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files.</description>
 		<description lang="es_ES">boom3 es una adaptación de código fuente del código base de Doom 3.[CR][CR]Consulta la documentación para ver la lista de archivos necesarios.</description>
+		<description lang="ga">Is port cód foinse de bhunachar cód Doom 3 é boom3.[CR][CR]Féach ar an doiciméadú le haghaidh liosta de na comhaid riachtanacha.</description>
 		<description lang="it_IT">boom3 è un port del codice sorgente del codebase di Doom 3.[CR][CR]Consulta la documentazione per un elenco dei file richiesti.</description>
 		<description lang="sl_SI">boom3 je vrata izvorne kode kodne baze Doom 3.[CR][CR]Glejte dokumentacijo za seznam zahtevanih datotek.</description>
 		<description lang="sv_SE">boom3 är en källkodsport av kodbasen Doom 3.[CR][CR]Se dokumentationen för en lista över nödvändiga filer.</description>
