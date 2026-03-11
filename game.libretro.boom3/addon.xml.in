@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.boom3"
 		name="Doom 3 (boom3)"
-		version="1.5.0.34"
+		version="1.5.0.35"
 		provider-name="Rinnegatamante, dhewm3">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -12,6 +12,7 @@
 		<extensions>pk4</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
 		<requires_opengl>true</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">

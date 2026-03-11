@@ -2,8 +2,10 @@
 <settings>
 	<category label="128">
 		<setting label="30001" type="select" id="doom_framerate" values="auto|50|60|72|75|90|100|119|120|144|155|160|165|180|200|240|244|300|360" default="auto"/>
-		<setting label="30002" type="select" id="doom_resolution" values="960x544|480x272|640x368|720x408|1280x720|1920x1080|2560x1440|3840x2160" default="960x544"/>
+		<setting label="30002" type="select" id="doom_resolution" values="1920x1080|320x240|400x300|512x384|640x480|800x600|1024x768|1152x864|1280x1024|1600x1200|1280x720|1366x768|1440x900|1400x1050|1600x900|1680x1050|1920x1200|2048x1152|2560x1600|3200x2400|3840x2160|4096x2304|2880x1800|2560x1440|1440x1080|1280x800|2560x1080|3440x1440|3840x1600|5120x2160|3840x1080|5120x1440|7680x2160" default="1920x1080"/>
+		<setting label="30005" type="select" id="doom_machine_spec" values="auto|0|1|2|3" default="auto"/>
 		<setting label="30003" type="select" id="doom_invert_y_axis" values="enabled|disabled" default="enabled"/>
+		<setting label="30006" type="select" id="doom_mouse_sensitivity" values="3.0|0.5|1.0|1.5|2.0|2.5|4.0|5.0|6.0|8.0" default="3.0"/>
 		<setting label="30004" type="select" id="doom_fps" values="disabled|enabled" default="disabled"/>
 	</category>
 </settings>
