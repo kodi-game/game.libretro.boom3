@@ -40,3 +40,11 @@ msgstr ""
 msgctxt "#30004"
 msgid "Show FPS"
 msgstr ""
+
+msgctxt "#30005"
+msgid "Quality Preset (requires core restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Mouse Sensitivity (Keyboard + Mouse mode)"
+msgstr ""
