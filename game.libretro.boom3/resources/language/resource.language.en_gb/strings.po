@@ -38,14 +38,70 @@ msgctxt "#30003"
 msgid "Invert Y Axis"
 msgstr ""
 
-msgctxt "#30004"
-msgid "Show FPS"
-msgstr ""
-
 msgctxt "#30005"
 msgid "Quality Preset (requires core restart)"
 msgstr ""
 
 msgctxt "#30006"
 msgid "Mouse Sensitivity (Keyboard + Mouse mode)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Game (Restart Required)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Smooth Shadows From Moving Lights"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Sound Samplerate (Hint) (Restart Required)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Color Format (Restart Required)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "HDR Scene Precision (Restart Required)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "HDR True Multi-Pass Blending (Restart Required)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "HDR Luminance-Aware Highlights"
+msgstr ""
+
+msgctxt "#30014"
+msgid "HDR Scene Headroom"
+msgstr ""
+
+msgctxt "#30015"
+msgid "HDR Direct Light Projection"
+msgstr ""
+
+msgctxt "#30016"
+msgid "HDR Specular Boost"
+msgstr ""
+
+msgctxt "#30017"
+msgid "HDR Bloom"
+msgstr ""
+
+msgctxt "#30018"
+msgid "HDR Convolution Bloom"
+msgstr ""
+
+msgctxt "#30019"
+msgid "HDR Expansion"
+msgstr ""
+
+msgctxt "#30020"
+msgid "HDR Highlight Roll-Off"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Sound: HRTF (Headphones)"
 msgstr ""

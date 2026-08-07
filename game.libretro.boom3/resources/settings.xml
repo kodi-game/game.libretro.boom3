@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="128">
+		<setting label="30007" type="select" id="doom_game" values="auto|doom3|d3xp" default="auto"/>
+		<setting label="30008" type="select" id="doom_shadow_smoothing" values="disabled|enabled" default="disabled"/>
 		<setting label="30001" type="select" id="doom_framerate" values="auto|50|60|72|75|90|100|119|120|144|155|160|165|180|200|240|244|300|360" default="auto"/>
+		<setting label="30009" type="select" id="doom_sound_samplerate" values="auto|32000|44100|48000|96000" default="auto"/>
+		<setting label="30010" type="select" id="doom_color_format" values="24bit|30bit-hdr" default="24bit"/>
+		<setting label="30011" type="select" id="doom_hdr_precision" values="10bit|fp16|fp32" default="10bit"/>
+		<setting label="30012" type="select" id="doom_hdr_true_blend" values="enabled|disabled" default="enabled"/>
+		<setting label="30013" type="select" id="doom_hdr_luma_blend" values="disabled|enabled" default="disabled"/>
+		<setting label="30014" type="select" id="doom_hdr_headroom" values="enabled|disabled" default="enabled"/>
+		<setting label="30015" type="select" id="doom_hdr_particle_lights" values="2|disabled|4" default="2"/>
+		<setting label="30016" type="select" id="doom_hdr_specular" values="moderate|disabled|strong" default="moderate"/>
+		<setting label="30017" type="select" id="doom_hdr_bloom" values="standard|disabled|subtle|intense" default="standard"/>
+		<setting label="30018" type="select" id="doom_hdr_bloom_convolution" values="disabled|enabled" default="disabled"/>
+		<setting label="30019" type="select" id="doom_hdr_expansion" values="disabled|inverse|hue" default="disabled"/>
+		<setting label="30020" type="select" id="doom_hdr_rolloff" values="reinhard|aces" default="reinhard"/>
+		<setting label="30021" type="select" id="doom_hrtf" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30002" type="select" id="doom_resolution" values="1920x1080|320x240|400x300|512x384|640x480|800x600|1024x768|1152x864|1280x1024|1600x1200|1280x720|1366x768|1440x900|1400x1050|1600x900|1680x1050|1920x1200|2048x1152|2560x1600|3200x2400|3840x2160|4096x2304|2880x1800|2560x1440|1440x1080|1280x800|2560x1080|3440x1440|3840x1600|5120x2160|3840x1080|5120x1440|7680x2160" default="1920x1080"/>
 		<setting label="30005" type="select" id="doom_machine_spec" values="auto|0|1|2|3" default="auto"/>
 		<setting label="30003" type="select" id="doom_invert_y_axis" values="enabled|disabled" default="enabled"/>
 		<setting label="30006" type="select" id="doom_mouse_sensitivity" values="3.0|0.5|1.0|1.5|2.0|2.5|4.0|5.0|6.0|8.0" default="3.0"/>
-		<setting label="30004" type="select" id="doom_fps" values="disabled|enabled" default="disabled"/>
 	</category>
 </settings>
