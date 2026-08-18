@@ -4,18 +4,40 @@
 		<setting label="30007" type="select" id="doom_game" values="auto|doom3|d3xp" default="auto"/>
 		<setting label="30008" type="select" id="doom_shadow_smoothing" values="disabled|enabled" default="disabled"/>
 		<setting label="30001" type="select" id="doom_framerate" values="auto|50|60|72|75|90|100|119|120|144|155|160|165|180|200|240|244|300|360" default="auto"/>
+		<setting label="30022" type="select" id="doom_unlocked_framerate" values="interpolation|fixed" default="interpolation"/>
 		<setting label="30009" type="select" id="doom_sound_samplerate" values="auto|32000|44100|48000|96000" default="auto"/>
-		<setting label="30010" type="select" id="doom_color_format" values="24bit|30bit-hdr" default="24bit"/>
+		<setting label="30010" type="select" id="doom_color_format" values="24bit|24bit-tonemapped|30bit-hdr" default="24bit"/>
 		<setting label="30011" type="select" id="doom_hdr_precision" values="10bit|fp16|fp32" default="10bit"/>
 		<setting label="30012" type="select" id="doom_hdr_true_blend" values="enabled|disabled" default="enabled"/>
 		<setting label="30013" type="select" id="doom_hdr_luma_blend" values="disabled|enabled" default="disabled"/>
 		<setting label="30014" type="select" id="doom_hdr_headroom" values="enabled|disabled" default="enabled"/>
 		<setting label="30015" type="select" id="doom_hdr_particle_lights" values="2|disabled|4" default="2"/>
+		<setting label="30023" type="select" id="doom_specular_falloff" values="original|tailed" default="original"/>
 		<setting label="30016" type="select" id="doom_hdr_specular" values="moderate|disabled|strong" default="moderate"/>
 		<setting label="30017" type="select" id="doom_hdr_bloom" values="standard|disabled|subtle|intense" default="standard"/>
+		<setting label="30024" type="select" id="doom_hdr_bloom_select" values="classic|curve knee" default="classic"/>
+		<setting label="30025" type="select" id="doom_specular_aa" values="disabled|enabled" default="disabled"/>
+		<setting label="30026" type="select" id="doom_hdr_ssaa" values="disabled|2x2" default="disabled"/>
+		<setting label="30027" type="select" id="doom_hdr_chromatic" values="disabled|subtle|strong|heavy|debug" default="disabled"/>
+		<setting label="30028" type="select" id="doom_hdr_halation" values="disabled|subtle|strong" default="disabled"/>
 		<setting label="30018" type="select" id="doom_hdr_bloom_convolution" values="disabled|enabled" default="disabled"/>
+		<setting label="30029" type="select" id="doom_hdr_bloom_range" values="standard|wide|widest" default="standard"/>
+		<setting label="30030" type="select" id="doom_hdr_particle_energy" values="disabled|bright|intense|blinding" default="disabled"/>
+		<setting label="30031" type="select" id="doom_spectral_mix" values="disabled|enabled" default="disabled"/>
+		<setting label="30032" type="select" id="doom_hdr_emissive" values="disabled|slight|subtle|strong" default="disabled"/>
+		<setting label="30033" type="select" id="doom_hdr_peak" values="auto|400|600|1000|1500|2000|4000" default="auto"/>
 		<setting label="30019" type="select" id="doom_hdr_expansion" values="disabled|inverse|hue" default="disabled"/>
-		<setting label="30020" type="select" id="doom_hdr_rolloff" values="reinhard|aces" default="reinhard"/>
+		<setting label="30034" type="select" id="doom_hdr_rolloff" values="reinhard|rplain|rext|jodie|devlin|aces|acesfit|aces2|aces2full|hejl|filmicalu|filmiclog|hable|hable2017|lottes|gt|unreal|neutral|agx|drago|expo|tumblin|ward|schlick" default="reinhard"/>
+		<setting label="30035" type="select" id="doom_audio_limiter" values="soft knee|limiter" default="soft knee"/>
+		<setting label="30036" type="select" id="doom_audio_headroom" values="0|-3|-6" default="0"/>
+		<setting label="30037" type="select" id="doom_hdr_aces2_surround" values="dim|dark|average" default="dim"/>
+		<setting label="30038" type="select" id="doom_hdr_aces2_gamut" values="rec2020|p3|rec709" default="rec2020"/>
+		<setting label="30039" type="select" id="doom_hdr_agx_look" values="default|punchy" default="default"/>
+		<setting label="30040" type="select" id="doom_hdr_gt_toe" values="0.22|0.10|0.16|0.30|0.40" default="0.22"/>
+		<setting label="30041" type="select" id="doom_hdr_gt_shoulder" values="0.40|0.20|0.30|0.50|0.70" default="0.40"/>
+		<setting label="30042" type="select" id="doom_hdr_filmiclog_contrast" values="base|verylow|low|medium|medhigh|high|veryhigh" default="base"/>
+		<setting label="30043" type="select" id="doom_hdr_filmiclog_range" values="4|6|8|10" default="4"/>
+		<setting label="30044" type="select" id="doom_hdr_highlight_desat" values="disabled|enabled" default="disabled"/>
 		<setting label="30021" type="select" id="doom_hrtf" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30002" type="select" id="doom_resolution" values="1920x1080|320x240|400x300|512x384|640x480|800x600|1024x768|1152x864|1280x1024|1600x1200|1280x720|1366x768|1440x900|1400x1050|1600x900|1680x1050|1920x1200|2048x1152|2560x1600|3200x2400|3840x2160|4096x2304|2880x1800|2560x1440|1440x1080|1280x800|2560x1080|3440x1440|3840x1600|5120x2160|3840x1080|5120x1440|7680x2160" default="1920x1080"/>
 		<setting label="30005" type="select" id="doom_machine_spec" values="auto|0|1|2|3" default="auto"/>

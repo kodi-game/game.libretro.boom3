@@ -98,10 +98,98 @@ msgctxt "#30019"
 msgid "HDR Expansion"
 msgstr ""
 
-msgctxt "#30020"
-msgid "HDR Highlight Roll-Off"
-msgstr ""
-
 msgctxt "#30021"
 msgid "Sound: HRTF (Headphones)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Unlocked Framerate (Restart Required)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Specular Falloff Shape"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Bloom Selection"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Specular Antialiasing (Toksvig)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Supersampling (2x2)"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Chromatic Aberration"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Halation"
+msgstr ""
+
+msgctxt "#30029"
+msgid "HDR: Bloom Range"
+msgstr ""
+
+msgctxt "#30030"
+msgid "HDR: Particle Energy"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Pseudo-Spectral Light Mixing"
+msgstr ""
+
+msgctxt "#30032"
+msgid "HDR: Emissive Headroom"
+msgstr ""
+
+msgctxt "#30033"
+msgid "HDR: Display Peak Luminance"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Display Transform (Tone Curve)"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Sound: Output Stage"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Sound: Headroom"
+msgstr ""
+
+msgctxt "#30037"
+msgid "ACES 2.0: Surround"
+msgstr ""
+
+msgctxt "#30038"
+msgid "ACES 2.0: Limiting Gamut"
+msgstr ""
+
+msgctxt "#30039"
+msgid "AgX: Look"
+msgstr ""
+
+msgctxt "#30040"
+msgid "GT Roll-Off: Toe"
+msgstr ""
+
+msgctxt "#30041"
+msgid "GT Roll-Off: Linear Length"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Filmic Log: Contrast"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Filmic Log: Highlight Range"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Highlight Hue Preservation"
 msgstr ""
