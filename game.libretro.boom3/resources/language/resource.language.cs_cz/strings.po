@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.boom3\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2020-01-30 03:06i\n"
-"PO-Revision-Date: 2026-07-06 08:10+0000\n"
+"PO-Revision-Date: 2026-08-22 15:12+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-boom3/cs_cz/>\n"
 "Language: cs_cz\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.7\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 msgctxt "Addon Summary"
 msgid "Doom 3 (boom3)"
@@ -37,10 +37,6 @@ msgctxt "#30003"
 msgid "Invert Y Axis"
 msgstr "Invertovat osu Y"
 
-msgctxt "#30004"
-msgid "Show FPS"
-msgstr "Zobrazit FPS"
-
 msgctxt "#30005"
 msgid "Quality Preset (requires core restart)"
 msgstr "Předvolba kvality (vyžaduje restart jádra)"
@@ -48,3 +44,871 @@ msgstr "Předvolba kvality (vyžaduje restart jádra)"
 msgctxt "#30006"
 msgid "Mouse Sensitivity (Keyboard + Mouse mode)"
 msgstr "Citlivost myši (režim klávesnice + myši)"
+
+msgctxt "#30007"
+msgid "Game (Restart Required)"
+msgstr "Hra (vyžaduje restart)"
+
+msgctxt "#30008"
+msgid "Smooth Shadows From Moving Lights"
+msgstr "Plynulé stíny od pohybujících se světel"
+
+msgctxt "#30009"
+msgid "Sound Samplerate (Hint) (Restart Required)"
+msgstr "Vzorkovací frekvence zvuku (doporučená) (vyžaduje restart)"
+
+msgctxt "#30010"
+msgid "Color Format (Restart Required)"
+msgstr "Formát barev (vyžaduje restart)"
+
+msgctxt "#30011"
+msgid "HDR Scene Precision (Restart Required)"
+msgstr "Přesnost HDR scény (vyžaduje restart)"
+
+msgctxt "#30012"
+msgid "HDR True Multi-Pass Blending (Restart Required)"
+msgstr "Skutečné víceprůchodové prolnutí HDR (vyžaduje restart)"
+
+msgctxt "#30013"
+msgid "HDR Luminance-Aware Highlights"
+msgstr "Světlá místa HDR s ohledem na jas"
+
+msgctxt "#30014"
+msgid "HDR Scene Headroom"
+msgstr "Rezerva HDR scény"
+
+msgctxt "#30015"
+msgid "HDR Direct Light Projection"
+msgstr "Přímá projekce světla HDR"
+
+msgctxt "#30016"
+msgid "HDR Specular Boost"
+msgstr "Zvýraznění zrcadlových odlesků HDR"
+
+msgctxt "#30017"
+msgid "HDR Bloom"
+msgstr "Záře HDR"
+
+msgctxt "#30018"
+msgid "HDR Convolution Bloom"
+msgstr "Konvoluční záře HDR"
+
+msgctxt "#30019"
+msgid "HDR Expansion"
+msgstr "Rozšíření HDR"
+
+msgctxt "#30021"
+msgid "Sound: HRTF (Headphones)"
+msgstr "Zvuk: HRTF (sluchátka)"
+
+msgctxt "#30022"
+msgid "Unlocked Framerate (Restart Required)"
+msgstr "Neomezená snímková frekvence (vyžaduje restart)"
+
+msgctxt "#30023"
+msgid "Specular Falloff Shape"
+msgstr "Tvar útlumu zrcadlových odlesků"
+
+msgctxt "#30024"
+msgid "Bloom Selection"
+msgstr "Výběr záře"
+
+msgctxt "#30025"
+msgid "Specular Antialiasing (Toksvig)"
+msgstr "Vyhlazování zrcadlových odlesků (Toksvig)"
+
+msgctxt "#30026"
+msgid "Supersampling (2x2)"
+msgstr "Supersampling (2x2)"
+
+msgctxt "#30027"
+msgid "Chromatic Aberration"
+msgstr "Chromatická aberace"
+
+msgctxt "#30028"
+msgid "Halation"
+msgstr "Halace"
+
+msgctxt "#30029"
+msgid "HDR: Bloom Range"
+msgstr "HDR: Rozsah záře"
+
+msgctxt "#30030"
+msgid "HDR: Particle Energy"
+msgstr "HDR: Energie částic"
+
+msgctxt "#30031"
+msgid "Pseudo-Spectral Light Mixing"
+msgstr "Pseudospektrální míchání světla"
+
+msgctxt "#30032"
+msgid "HDR: Emissive Headroom"
+msgstr "HDR: Rezerva emisivní složky"
+
+msgctxt "#30033"
+msgid "HDR: Display Peak Luminance"
+msgstr "HDR: Špičkový jas displeje"
+
+msgctxt "#30034"
+msgid "Display Transform (Tone Curve)"
+msgstr "Transformace pro zobrazení (tónová křivka)"
+
+msgctxt "#30035"
+msgid "Sound: Output Stage"
+msgstr "Zvuk: Výstupní stupeň"
+
+msgctxt "#30036"
+msgid "Sound: Headroom"
+msgstr "Zvuk: Dynamická rezerva"
+
+msgctxt "#30037"
+msgid "ACES 2.0: Surround"
+msgstr "ACES 2.0: Okolní prostředí"
+
+msgctxt "#30038"
+msgid "ACES 2.0: Limiting Gamut"
+msgstr "ACES 2.0: Omezení gamutu"
+
+msgctxt "#30039"
+msgid "AgX: Look"
+msgstr "AgX: Vzhled"
+
+msgctxt "#30040"
+msgid "GT Roll-Off: Toe"
+msgstr "GT Roll-Off: Pata křivky"
+
+msgctxt "#30041"
+msgid "GT Roll-Off: Linear Length"
+msgstr "GT Roll-Off: Délka lineární části"
+
+msgctxt "#30042"
+msgid "Filmic Log: Contrast"
+msgstr "Filmic Log: Kontrast"
+
+msgctxt "#30043"
+msgid "Filmic Log: Highlight Range"
+msgstr "Filmic Log: Rozsah světlých míst"
+
+msgctxt "#30044"
+msgid "Highlight Hue Preservation"
+msgstr "Zachování odstínu světlých míst"
+
+msgctxt "#30045"
+msgid "Which game the loaded content belongs to. 'Auto' detects Resurrection of Evil when the content sits in a directory named 'd3xp' (the retail layout); override for unconventional layouts."
+msgstr "Ke které hře patří načtený obsah. „Automaticky“ rozpozná Resurrection of Evil, pokud se obsah nachází v adresáři s názvem „d3xp“ (maloobchodní rozložení); u neobvyklých rozložení lze volbu přepsat."
+
+msgctxt "#30046"
+msgid "Auto (Detect)"
+msgstr "Automaticky (detekce)"
+
+msgctxt "#30047"
+msgid "Doom 3"
+msgstr "Doom 3"
+
+msgctxt "#30048"
+msgid "Doom 3: Resurrection of Evil"
+msgstr "Doom 3: Resurrection of Evil"
+
+msgctxt "#30049"
+msgid "Rebuild moving lights' shadow volumes every rendered frame at the interpolated light position. Removes per-tic shadow popping from rotating/swinging lights at output rates above 60 fps, at some CPU cost. No effect at 60 fps."
+msgstr "V každém vykresleném snímku znovu sestavit objemy stínů pohybujících se světel v interpolované pozici světla. Odstraňuje poskakování stínů mezi tiky u otáčejících se/kyvných světel při výstupních frekvencích nad 60 snímků/s za cenu určité zátěže CPU. Při 60 snímcích/s nemá žádný účinek."
+
+msgctxt "#30050"
+msgid "Choose the desired frame rate."
+msgstr "Zvolit požadovanou snímkovou frekvenci."
+
+msgctxt "#30051"
+msgid "Auto"
+msgstr "Automaticky"
+
+msgctxt "#30052"
+msgid "50fps"
+msgstr "50fps"
+
+msgctxt "#30053"
+msgid "60fps"
+msgstr "60fps"
+
+msgctxt "#30054"
+msgid "72fps"
+msgstr "72fps"
+
+msgctxt "#30055"
+msgid "75fps"
+msgstr "75fps"
+
+msgctxt "#30056"
+msgid "90fps"
+msgstr "90fps"
+
+msgctxt "#30057"
+msgid "100fps"
+msgstr "100fps"
+
+msgctxt "#30058"
+msgid "119fps"
+msgstr "119fps"
+
+msgctxt "#30059"
+msgid "120fps"
+msgstr "120fps"
+
+msgctxt "#30060"
+msgid "144fps"
+msgstr "144fps"
+
+msgctxt "#30061"
+msgid "155fps"
+msgstr "155fps"
+
+msgctxt "#30062"
+msgid "160fps"
+msgstr "160fps"
+
+msgctxt "#30063"
+msgid "165fps"
+msgstr "165fps"
+
+msgctxt "#30064"
+msgid "180fps"
+msgstr "180fps"
+
+msgctxt "#30065"
+msgid "200fps"
+msgstr "200fps"
+
+msgctxt "#30066"
+msgid "240fps"
+msgstr "240fps"
+
+msgctxt "#30067"
+msgid "244fps"
+msgstr "244fps"
+
+msgctxt "#30068"
+msgid "300fps"
+msgstr "300fps"
+
+msgctxt "#30069"
+msgid "360fps"
+msgstr "360fps"
+
+msgctxt "#30070"
+msgid "How framerates above 60 are reached. Interpolation is the classic arrangement and the default: the simulation runs at 60 Hz and the presentation is smoothed between tics. Fixed simulates at the output framerate instead, so every frame drawn is a frame simulated and input is acted on sooner - around 4 ms of average wait at 120 Hz against 8.3 at 60. Fixed costs proportionally more CPU, disables multiplayer, and its savegames are not interchangeable with Interpolation ones: the load menu marks those with the rate they were taken at and will not load them. Applied at startup."
+msgstr "Jak dosáhnout frekvencí nad 60 snímků/s. Interpolace je klasické uspořádání a výchozí volba: simulace běží na 60 Hz a prezentace se mezi tiky vyhlazuje. Pevná frekvence simuluje místo toho při výstupní frekvenci, takže každý vykreslený snímek je simulovaný a vstup se zpracuje dříve – průměrné čekání je přibližně 4 ms při 120 Hz oproti 8,3 ms při 60 Hz. Pevná frekvence stojí úměrně více CPU, vypíná hru více hráčů a její uložené hry nejsou zaměnitelné s hrami z interpolace: nabídka načítání je označí frekvencí, při které byly pořízeny, a nenačte je. Použije se při spuštění."
+
+msgctxt "#30071"
+msgid "Interpolation"
+msgstr "Interpolace"
+
+msgctxt "#30072"
+msgid "Fixed"
+msgstr "Pevná frekvence"
+
+msgctxt "#30073"
+msgid "Output sample rate. 'Auto' asks the frontend for the rate its audio device is actually running at and renders directly at it, so nothing has to resample. Doom 3's assets are authored at 44.1kHz; picking a rate explicitly resamples them once at load instead. Applied at startup."
+msgstr "Výstupní vzorkovací frekvence. „Automaticky“ si od frontendu vyžádá frekvenci, na které skutečně běží jeho zvukové zařízení, a vykresluje přímo v ní, takže není potřeba převzorkování. Data Doom 3 jsou vytvořena pro 44,1 kHz; při explicitním výběru frekvence se při načtení převzorkují jednou. Použije se při spuštění."
+
+msgctxt "#30074"
+msgid "32kHz"
+msgstr "32 kHz"
+
+msgctxt "#30075"
+msgid "44.1kHz"
+msgstr "44,1 kHz"
+
+msgctxt "#30076"
+msgid "48kHz"
+msgstr "48 kHz"
+
+msgctxt "#30077"
+msgid "96kHz"
+msgstr "96 kHz"
+
+msgctxt "#30078"
+msgid "24-bit is the standard XRGB8888 output. 30-bit Color (HDR) renders into a 10-bit surface and emits HDR10 (PQ, Rec.2020): use with the frontend's HDR output enabled on an HDR display. The conversion honors the frontend's paper white, peak luminance, and Colour Boost settings, and dithers the 10-bit quantization. 24-bit tone-mapped runs that same scene pipeline - curves, bloom, every enhancement - encoded to the stock 24-bit surface: the full transform family on any SDR display, with no HDR frontend support needed."
+msgstr "24bitový formát je standardní výstup XRGB8888. 30bitové barvy (HDR) vykreslují do 10bitové plochy a vysílají HDR10 (PQ, Rec.2020): použijte s povoleným HDR výstupem frontendu na HDR displeji. Převod respektuje nastavení frontendu pro referenční bílou, špičkový jas a zvýraznění barev a provádí dithering 10bitové kvantizace. 24bitové tónové mapování používá stejnou scénovou pipeline – křivky, záři i všechna vylepšení – kódovanou do standardní 24bitové plochy: celou rodinu transformací na libovolném SDR displeji bez potřeby podpory HDR frontendu."
+
+msgctxt "#30079"
+msgid "24-bit (Standard)"
+msgstr "24bitové (standardní)"
+
+msgctxt "#30080"
+msgid "24-bit, tone-mapped"
+msgstr "24bitové, s tónovým mapováním"
+
+msgctxt "#30081"
+msgid "30-bit Color (HDR)"
+msgstr "30bitové barvy (HDR)"
+
+msgctxt "#30082"
+msgid "Scene buffer depth in 30-bit HDR mode. 10-bit quantizes each additive light pass to 10-bit steps and caps accumulation at one stop of headroom via the encoding fold. FP16 (half-float) makes per-pass quantization effectively disappear and removes the accumulation ceiling entirely - light sums build unbounded and roll off only at output. 10-bit also leaves only 2 bits of destination alpha (4 levels instead of 256), so the handful of materials that blend against destination alpha band visibly; FP16 restores full alpha. FP16 costs double the scene buffer bandwidth and requires float render target support (any desktop GPU)."
+msgstr "Bitová hloubka bufferu scény v 30bitovém režimu HDR. 10bitová varianta kvantizuje každý aditivní průchod světla do 10bitových kroků a pomocí skládání kódování omezuje akumulaci na jeden stupeň rezervy; FP16 (poloviční plovoucí čárka) prakticky odstraní kvantizaci po průchodech a zcela odstraní limit akumulace – součty světel rostou bez omezení a oříznou se až na výstupu. 10bitová varianta také ponechává pouze 2 bity cílové alfy (4 úrovně místo 256), takže několik materiálů, které se prolínají s cílovou alfou, bude viditelně pruhovaných; FP16 obnoví plnou alfu. FP16 vyžaduje dvojnásobnou propustnost bufferu scény a podporu plovoucího renderovacího cíle (libovolný desktopový GPU)."
+
+msgctxt "#30083"
+msgid "10-bit"
+msgstr "10bitové"
+
+msgctxt "#30084"
+msgid "FP16 (Half-Float)"
+msgstr "FP16 (poloviční plovoucí čárka)"
+
+msgctxt "#30085"
+msgid "FP32 (Full-Float)"
+msgstr "FP32 (plná plovoucí čárka)"
+
+msgctxt "#30086"
+msgid "With an FP16/FP32 scene buffer, lets stacked translucent passes accumulate past white instead of clamping at every pass - overlapping smoke planes, thick fog volumes, and explosion clouds keep their internal structure instead of saturating to flat white, and the sum rolls off only at output. Disable to restore per-pass clamping (the classic look, and an escape hatch if heavy particle overdraw on a float buffer costs too much fillrate on your GPU). No effect on the 10-bit buffer, which clamps in hardware."
+msgstr "S bufferem scény FP16/FP32 umožní akumulaci složených průsvitných průchodů nad bílou místo ořezání v každém průchodu – překrývající se kouřové roviny, hustá mlha a oblaka výbuchů si zachovají vnitřní strukturu místo nasycení do ploché bílé a součet se ořízne až na výstupu. Vypnutím obnovíte ořezávání po průchodech (klasický vzhled a možnost úniku, pokud vysoký overdraw částic na GPU s plovoucím bufferem příliš zatěžuje fillrate). Na 10bitový buffer nemá žádný účinek, protože ten ořezává v hardwaru."
+
+msgctxt "#30087"
+msgid "Enabled"
+msgstr "Povoleno"
+
+msgctxt "#30088"
+msgid "Disabled"
+msgstr "Zakázáno"
+
+msgctxt "#30089"
+msgid "When a pixel is too bright for the buffer, roll it off toward its own luminance instead of clipping each colour channel separately. Per-channel clipping changes the colour of anything overbright - stacked fire, muzzle flashes and coolant glows drift toward whichever channel saturated first, which is where the magenta and cyan fringes on bright effects come from. Rolling off toward luminance keeps the hue and lets the pixel fade to white the way a real highlight does. Costs about ten extra shader instructions per fragment. No effect with True Multi-Pass Blending on a float buffer, which has no ceiling to roll off against."
+msgstr "Když je pixel pro buffer příliš jasný, posunout ho směrem k jeho vlastnímu jasu místo samostatného ořezání každého barevného kanálu. Ořez po kanálech mění barvu všeho přesvětleného – vrstvený oheň, záblesky zbraní a záře chladicí kapaliny se posunou ke kanálu, který se nasytil jako první; odtud pocházejí purpurové a azurové okraje jasných efektů. Posun směrem k jasu zachová odstín a nechá pixel vyblednout do bílé jako skutečný světelný bod. Stojí přibližně deset instrukcí shaderu na fragment. Na plovoucím bufferu nemá účinek s True Multi-Pass Blending, který nemá strop, ke kterému by se dalo posouvat."
+
+msgctxt "#30090"
+msgid "Preserves overbright lighting in 30-bit HDR mode. The scene is encoded at half intensity so light sums that previously clamped at white survive into the buffer, and the output pass restores scale - clipped highlights (stacked lights, muzzle flashes, specular sums) regain their shape and land above paper white. HUD and menus stay at exactly paper white. Costs exactly one bit of the 10-bit scene buffer, everywhere and not just in shadows: the scene occupies 512 of 1024 codes, and the output dither cannot recover it, because the expand happens before the decode so each surviving code is already two output codes wide. FP16 scene precision is the better answer if your GPU supports it (any desktop GPU does) and makes this option unnecessary - it is automatically bypassed there. No effect in 24-bit mode."
+msgstr "Zachovává přesvětlené osvětlení v 30bitovém režimu HDR. Scéna se kóduje s poloviční intenzitou, takže součty světel, které se dříve ořezaly na bílé, přežijí v bufferu, a výstupní průchod obnoví měřítko – ořezaná světlá místa (vrstvená světla, záblesky zbraní, součty zrcadlových odlesků) znovu získají tvar a dostanou se nad referenční bílou. HUD a nabídky zůstanou přesně na referenční bílé. Stojí přesně jeden bit 10bitového bufferu scény, všude, nejen ve stínech: scéna zabere 512 z 1024 kódů a výstupní dithering ho nedokáže obnovit, protože rozšíření proběhne před dekódováním, takže každý přeživší kód už má šířku dvou výstupních kódů. Přesnost scény FP16 je lepší řešení, pokud ji GPU podporuje (podporuje ji každý desktopový GPU), a tuto volbu nepotřebuje – tam se automaticky obchází. V režimu 24 bitů nemá účinek."
+
+msgctxt "#30091"
+msgid "Bright particle systems become real light sources in 30-bit HDR mode: the largest spark/ember clusters in view drive a small pool of genuine dynamic lights, casting localized diffuse and specular highlights onto nearby surfaces through the engine's normal shading path. Shadowless by design. Each active light adds interaction passes on nearby geometry - the 4-light setting is the performance-heavy choice. Live-switchable."
+msgstr "Jasné částicové systémy se v 30bitovém režimu HDR stanou skutečnými zdroji světla: největší shluky jisker/žhavých uhlíků v záběru ovládají malou skupinu skutečných dynamických světel, která běžnou cestou stínování enginu vrhají na blízké povrchy lokální difuzní a zrcadlové odlesky. Záměrně bez stínů. Každé aktivní světlo přidává průchody zpracování na blízké geometrii – nastavení 4 světel je náročné na výkon. Lze přepínat za běhu."
+
+msgctxt "#30092"
+msgid "2 Lights"
+msgstr "2 světla"
+
+msgctxt "#30093"
+msgid "4 Lights"
+msgstr "4 světla"
+
+msgctxt "#30094"
+msgid "How a specular highlight fades. 'Original' is the game's own curve, which is exactly zero below a threshold - so a surface seen at a distance, whose normals have been averaged down by mipmapping, loses its highlight entirely rather than softening, and it flickers back as the view moves. 'Tailed' keeps the same highlight width but fades smoothly to nothing instead of cutting off, which stops that flicker at the cost of a slightly softer look on rough surfaces. Takes effect when images are reloaded."
+msgstr "Jak doznívá zrcadlový odlesk. „Původní“ používá vlastní křivku hry, která je pod prahem přesně nulová – povrch pozorovaný z dálky, jehož normály byly zprůměrovány mipmappingem, tak o odlesk úplně přijde místo jeho změkčení a při pohybu pohledu se znovu objeví. „S dozníváním“ zachovává stejnou šířku odlesku, ale plynule slábne k nule místo okamžitého vypnutí, takže zastaví toto blikání za cenu o něco měkčího vzhledu drsných povrchů. Projeví se po opětovném načtení obrazů."
+
+msgctxt "#30095"
+msgid "Original"
+msgstr "Původní"
+
+msgctxt "#30096"
+msgid "Tailed (less shimmer)"
+msgstr "S dozníváním (méně třpytu)"
+
+msgctxt "#30097"
+msgid "Scales specular reflection energy on lit surfaces in 30-bit HDR mode. Dielectric specular is physically a few percent of incident light and reads as mud under an SDR ceiling; boosting it restores reflective punch, and highlights that reach the bloom threshold bleed into HDR headroom. Lit surfaces only - HUD, menus, and fullbright content are untouched. Needs somewhere to put the boosted energy, so it is ignored when the scene buffer is 10-bit AND HDR Scene Headroom is disabled - in that combination it would only clip more pixels to white. No effect in 24-bit mode."
+msgstr "Škáluje energii zrcadlových odlesků na osvětlených površích v 30bitovém režimu HDR. Zrcadlový odlesk dielektrik je fyzicky několik procent dopadajícího světla a pod limitem SDR působí mdle; zvýšení obnoví výraznost odlesků a ty, které dosáhnou prahu záře, proniknou do rezervy HDR. Týká se pouze osvětlených povrchů – HUD, nabídky a plně osvětlený obsah zůstávají beze změny. Potřebuje místo pro zesílenou energii, takže se ignoruje, když je buffer scény 10bitový a současně je zakázaná rezerva HDR scény – v této kombinaci by pouze ořízl více pixelů do bílé. V režimu 24 bitů nemá účinek."
+
+msgctxt "#30098"
+msgid "Moderate (2x)"
+msgstr "Střední (2x)"
+
+msgctxt "#30099"
+msgid "Strong (3x)"
+msgstr "Silné (3x)"
+
+msgctxt "#30100"
+msgid "Multi-band bloom for 30-bit HDR mode: bright content (lamps, plasma, the engine's own glare sprites) is extracted in linear light, Gaussian-blurred at two scales (tight core plus wide haze), and composited before the highlight roll-off - so glow genuinely exceeds paper white and lands in the HDR headroom, which standard output cannot express. Firefly-compressed at extraction to prevent specular flicker. No effect in 24-bit mode."
+msgstr "Vícepásmová záře pro 30bitový režim HDR: jasný obsah (lampy, plazma, vlastní odleskové sprity enginu) se extrahuje v lineárním světle, rozostří gaussovským filtrem ve dvou měřítcích (úzké jádro a široký opar) a složí před posunem světlých míst – záře tak skutečně překročí referenční bílou a dostane se do rezervy HDR, kterou standardní výstup nedokáže vyjádřit. Při extrakci se používá komprese firefly, aby se zabránilo blikání zrcadlových odlesků. V režimu 24 bitů nemá účinek."
+
+msgctxt "#30101"
+msgid "Subtle"
+msgstr "Jemná"
+
+msgctxt "#30102"
+msgid "Standard"
+msgstr "Standardní"
+
+msgctxt "#30103"
+msgid "Intense"
+msgstr "Intenzivní"
+
+msgctxt "#30104"
+msgid "What counts as a highlight for bloom. Classic keeps the measured 0.70 threshold the bloom was tuned against. Curve knee derives it from the active transform: Neutral's 0.76 start of compression or GT's solved shoulder start, so bloom picks exactly the pixels the curve will compress; other curves keep 0.70. Approximate when dynamic-range expansion is active."
+msgstr "Co se započítá jako světlé místo pro záři. Klasická volba používá změřený práh 0.70, na který byla záře vyladěna. Koleno křivky ho odvozuje z aktivní transformace: u Neutral je to začátek komprese 0.76 nebo vypočtený začátek ramene u GT, takže záře vybere přesně pixely, které křivka zkomprimuje; ostatní křivky ponechají 0.70. Při aktivním rozšíření dynamického rozsahu jde o přibližnou hodnotu."
+
+msgctxt "#30105"
+msgid "Widens the specular lobe where the surface is rough at the current mip footprint, using the normal shortening that mip averaging already encodes. This band-limits the highlight itself, so subpixel speculars stop shimmering - with or without supersampling, and it composes with it. Flat, full-length normals are untouched. Applied when shaders load, so changing it takes effect on the next level load or renderer restart."
+msgstr "Rozšiřuje zrcadlový lalok tam, kde je povrch při aktuálním mipmapovém rozsahu drsný, pomocí zkrácení normály, které už průměrování mipmap kóduje. Tímto pásmově omezuje samotný odlesk, takže zrcadlové odlesky menší než pixel přestanou třpytit – se supersamplingem i bez něj a v kombinaci s ním. Ploché normály v celé délce zůstávají beze změny. Použije se při načtení shaderů, takže změna se projeví při načtení další úrovně nebo restartu rendereru."
+
+msgctxt "#30106"
+msgid "Renders the scene at twice the width and height and resolves each output pixel from its four samples. Works in both colour modes, with the resolve each one needs: 24-bit content is display-referred so the four samples are box-averaged, which is exact for it; 30-bit HDR content is linear light where a plain average lets one hot sample dominate and edges against highlights stay roped, so HDR resolves with a tone-weighted Karis average instead - each sample weighted by 1 over 1+brightness before the mean and unweighted after. Costs 4x fill rate and scene memory: at 4K output roughly 130MB for the 24-bit target and 265MB for the HDR one, so it is priced for high-end hardware or lower output resolutions. Under HDR the bloom reads slightly tighter because the pyramid runs at the supersampled size."
+msgstr "Vykresluje scénu s dvojnásobnou šířkou a výškou a každý výstupní pixel sestaví ze čtyř vzorků. Funguje v obou barevných režimech s rozlišením potřebným pro každý z nich: 24bitový obsah se odvozuje od displeje, takže čtyři vzorky se zprůměrují jako box, což je pro něj přesné; 30bitový obsah HDR je v lineárním světle, kde prostý průměr nechá vyniknout jeden horký vzorek a okraje u světlých míst zůstanou provazcovité, takže HDR používá průměr Karis vážený tónem – každý vzorek se před průměrem váží převrácenou hodnotou 1+jas a po něm bez vážení. Stojí 4x fillrate a paměť scény: při výstupu 4K přibližně 130 MB pro 24bitový cíl a 265 MB pro HDR, takže je určen pro výkonný hardware nebo nižší výstupní rozlišení. V HDR je záře mírně užší, protože pyramida běží v supersamplované velikosti."
+
+msgctxt "#30107"
+msgid "2x2 (4 samples per pixel)"
+msgstr "2x2 (4 vzorky na pixel)"
+
+msgctxt "#30108"
+msgid "Splits red and blue slightly apart toward the edges of the frame, the way a lens does when it focuses different wavelengths at different magnifications. It grows with the square of distance from the centre, so the middle of the screen stays clean and only the corners fringe. At 4K the corner shifts by about 3 pixels on Subtle, 6 on Strong and 12 on Heavy; a quarter of the way out from the centre even Heavy is about a quarter of a pixel, which is the point - a lens is sharpest where you are looking. In this game the centre is usually the subject and the corners are usually dark or bloomed, so the effect reads as a soft anamorphic edge rather than an obvious split. The offset is a fixed fraction of the frame rather than a pixel count, so it stays the same artifact at any resolution, which is what a lens does. This is a lens artifact, not a film one, and it is separate from Halation for that reason; they are often used together but they come from different parts of a camera."
+msgstr "Rozděluje červenou a modrou složku mírně od sebe směrem k okrajům obrazu, jako čočka, která zaostřuje různé vlnové délky při různém zvětšení. Roste se čtvercem vzdálenosti od středu, takže střed obrazovky zůstává čistý a barevné lemy se objeví pouze v rozích. Při 4K se posun rohu pohybuje přibližně od 3 pixelů u volby Jemná přes 6 u Silná po 12 u Výrazná; i u volby Výrazná je ve čtvrtině vzdálenosti od středu asi čtvrt pixelu, což je smyslem – čočka je nejostřejší tam, kam se díváte. V této hře je střed obvykle předmětem zájmu a rohy bývají tmavé nebo se září, takže efekt působí jako měkký anamorfní okraj, nikoli jako zjevné rozdělení. Posun je pevný zlomek obrazu, nikoli počet pixelů, takže při libovolném rozlišení zůstává stejným artefaktem, což odpovídá čočce. Jde o artefakt čočky, nikoli filmu, a proto je oddělený od halace; často se používají společně, ale pocházejí z různých částí kamery."
+
+msgctxt "#30109"
+msgid "Subtle (3px corner at 4K)"
+msgstr "Jemná (3px v rohu při 4K)"
+
+msgctxt "#30110"
+msgid "Strong (6px)"
+msgstr "Silná (6px)"
+
+msgctxt "#30111"
+msgid "Heavy (12px)"
+msgstr "Výrazná (12px)"
+
+msgctxt "#30112"
+msgid "Debug (show the displacement)"
+msgstr "Ladění (zobrazit posun)"
+
+msgctxt "#30113"
+msgid "Warms the bloom around bright areas toward red, the way film does. In a real print the glow around a bright window is orange rather than white, because light passes through the emulsion, scatters off the backing and comes back reddened. This tints the existing bloom rather than adding a pass, so it costs one instruction. It is a film response, not a shadow effect - it appears around anything bright, which is what film does. Pairs naturally with Filmic Log but is not tied to it."
+msgstr "Ohřívá záři kolem jasných oblastí směrem k červené, jako to dělá film. Ve skutečném filmu je záře kolem jasného okna oranžová místo bílé, protože světlo prochází emulzí, rozptyluje se o podklad a vrací se zčervenalé. Tónuje existující záři místo přidání dalšího průchodu, takže stojí jednu instrukci. Jde o odezvu filmu, nikoli stínový efekt – objeví se kolem všeho jasného, jak to film dělá. Přirozeně se kombinuje s Filmic Log, ale není na něm závislá."
+
+msgctxt "#30114"
+msgid "Strong"
+msgstr "Silná"
+
+msgctxt "#30115"
+msgid "Replaces HDR Bloom's two fixed blur scales with a six-octave pyramid, accumulated back up with a tent filter. The result approximates convolving the scene with one wide, heavy-tailed point spread instead of adding two discrete Gaussians. Glow carries much further from its source and fades smoothly out, rather than stopping at a visible edge where the blur kernel ends - the halo look older engines had. Total bloom energy is held identical to the two-band path, so the same light is spread wider: expect softer, dimmer highlight cores and far more spill. Costs a handful of extra passes on small buffers. Requires HDR Bloom to be enabled; no effect in 24-bit mode."
+msgstr "Nahrazuje dvě pevná měřítka rozostření HDR záře pyramidou se šesti oktávami, která se znovu akumuluje pomocí trojúhelníkového filtru. Výsledkem je přibližná konvoluce scény s jedním širokým jádrem s těžkým chvostem namísto přidání dvou diskrétních gaussovských funkcí. Záře se od zdroje šíří mnohem dál a plynule mizí místo zastavení na viditelném okraji, kde končí jádro rozostření – vzniká vzhled halo ze starších enginů. Celková energie záře zůstává stejná jako u dvoupásmové cesty, takže stejné světlo se rozprostře do větší šířky: čekejte měkčí a tlumenější jádra světlých míst a mnohem větší rozptyl. Stojí několik dalších průchodů u malých bufferů. Vyžaduje povolenou HDR záři; v režimu 24 bitů nemá účinek."
+
+msgctxt "#30116"
+msgid "How much brightness the bloom extraction is allowed to carry. The bright pass limits what it extracts before blurring it, so a single-texel specular spike cannot flicker the whole halo frame to frame. That limit was set when the scene was clamped at 1.0, and it caps every extraction below 1: a lamp at 4 and a lamp at 64 both bloom at roughly 0.8, so brightness stops mattering. Widening it keeps the anti-flicker property but lets a brighter source bloom brighter - at Wide a source at 4 extracts 2.0 instead of 0.8. Needs a curve with headroom to show it, so ACES 2.0 and Filmic Log benefit most and Reinhard least."
+msgstr "Jaký jas smí extrakce záře přenášet. Jasný průchod omezuje, co se před rozostřením extrahuje, takže jediný zrcadlový hrot nemůže zábleskem rozsvítit celé halo v jednom snímku. Tento limit byl nastaven, když byla scéna omezena na 1.0, a každou extrakci ořezává pod 1: lampa s hodnotou 4 i lampa s hodnotou 64 tak září přibližně na 0.8 a jas přestane mít význam. Rozšíření ho zachová proti blikání, ale umožní jasnějšímu zdroji zářit jasněji – při volbě Wide zdroj s hodnotou 4 extrahuje 2.0 místo 0.8. Aby se to projevilo, je potřeba křivka s rezervou; nejvíce z toho těží ACES 2.0 a Filmic Log, nejméně Reinhard."
+
+msgctxt "#30117"
+msgid "Standard (clamped)"
+msgstr "Standardní (ořezaný)"
+
+msgctxt "#30118"
+msgid "Wide (4x)"
+msgstr "Široký (4x)"
+
+msgctxt "#30119"
+msgid "Widest (16x)"
+msgstr "Nejširší (16x)"
+
+msgctxt "#30120"
+msgid "Scales additive particle stages - muzzle flashes, plasma bolts, fireballs, sparks - separately from static emissive surfaces. They are the same kind of stage to the renderer but want very different amounts: a monitor reads as a light at 4x, while Filmic Log's desaturation crosstalk does not begin until about 78 in scene terms and is obvious around 400. At those levels a projectile core washes out to white and keeps its hue at the edges, the way a real camera renders a bright source, instead of clipping to a flat block of colour. Wants Filmic Log or ACES 2.0; Reinhard has no range up there to show it."
+msgstr "Škáluje aditivní fáze částic – záblesky zbraní, plazmové střely, ohnivé koule, jiskry – odděleně od statických emisivních povrchů. Pro renderer jde o stejný druh fáze, ale potřebují velmi odlišné hodnoty: monitor působí jako světlo při 4x, zatímco přeslech desaturace Filmic Log začíná přibližně u 78 v hodnotách scény a zřetelný je kolem 400. Při těchto hodnotách se jádro střely vyběluje a na okrajích si zachovává odstín, jak skutečná kamera zobrazuje jasný zdroj, místo ořezu do plochého barevného bloku. Vyžaduje Filmic Log nebo ACES 2.0; Reinhard tam nemá dostatečný rozsah."
+
+msgctxt "#30121"
+msgid "Bright (8x)"
+msgstr "Jasné (8x)"
+
+msgctxt "#30122"
+msgid "Intense (32x)"
+msgstr "Intenzivní (32x)"
+
+msgctxt "#30123"
+msgid "Blinding (96x)"
+msgstr "Oslnivé (96x)"
+
+msgctxt "#30124"
+msgid "The engine lights a surface by multiplying light and albedo one channel at a time. Real light and pigment interact across a spectrum, and the per-channel product fails hardest where this game lives - a narrow, saturated light over a saturated surface. A 620nm flare on a cyan surface should give a dark red; the per-channel product gives a green. This mixes them in a basis fitted against spectral ground truth instead, which halves the colour error and stops opposing lights meeting in a muddy line. Blue light on a yellow surface goes from (0.10, 0.18, 0.10) to (0.13, 0.23, 0.18). Neutrals are unaffected by construction. Takes effect when programs next load."
+msgstr "Engine osvětluje povrch násobením světla a albeda po jednotlivých kanálech. Skutečné světlo a pigment spolupracují napříč spektrem a součin po kanálech selhává nejvíce tam, kde tato hra působí – úzkopásmové nasycené světlo na nasyceném povrchu. Záblesk 620 nm na azurovém povrchu by měl vytvořit tmavě červenou; součin po kanálech vytvoří zelenou. Tato volba je míchá v bázi přizpůsobené spektrální referenční pravdě místo toho, čímž sníží barevnou chybu na polovinu a zabrání tomu, aby se protilehlá světla setkala v bahnité linii. Modré světlo na žlutém povrchu se změní z (0.10, 0.18, 0.10) na (0.13, 0.23, 0.18). Neutrální barvy se z principu nemění. Projeví se při příštím načtení programů."
+
+msgctxt "#30125"
+msgid "Scales the additive stages of materials - the glow layers on monitors, keypads and light panels - so they reach into the range above paper white. Without it a screen's texture white is 1.0, the same value a fully lit wall reaches, so it renders no brighter than the corridor around it; through ACES 2.0 at a 1000 nit peak that is 107 nits, where 1.5x reaches 159, 2x reaches 206 and 4x reaches 355. Only additive stages are affected, so diffuse surfaces and the overall brightness do not move. Needs a curve with headroom to spend - ACES 2.0 or Filmic Log show it most, Reinhard's soft knee least."
+msgstr "Škáluje aditivní fáze materiálů – vrstvy záře na monitorech, klávesnicích a světelných panelech – aby pronikly do rozsahu nad referenční bílou. Bez této volby je bílá textury obrazovky 1.0, stejná hodnota, jakou dosáhne plně osvětlená stěna, takže obrazovka není jasnější než chodba kolem ní; přes ACES 2.0 při špičce 1000 nitů je to 107 nitů, zatímco 1.5x dosáhne 159, 2x 206 a 4x 355. Ovlivněny jsou pouze aditivní fáze, takže difuzní povrchy a celkový jas se nemění. Potřebuje křivku s rezervou – nejvíce se projeví ACES 2.0 nebo Filmic Log, nejméně měkké koleno Reinhard."
+
+msgctxt "#30126"
+msgid "Slight (1.5x)"
+msgstr "Mírné (1.5x)"
+
+msgctxt "#30127"
+msgid "Subtle (2x)"
+msgstr "Jemné (2x)"
+
+msgctxt "#30128"
+msgid "Strong (4x)"
+msgstr "Silné (4x)"
+
+msgctxt "#30129"
+msgid "Overrides the peak brightness the frontend reports. ACES 2.0's tone scale is parameterised by this single number and rebuilds when it moves, so it retargets the whole transform rather than just scaling the output - mid grey lands on 10.0 nits at a 100 nit peak, 14.5 at 1000 and 17.8 at 10000, with the roll-off adjusting to match. Leave on Auto unless the frontend reports nothing, in which case it falls back to 1000, or unless your display's real peak differs from what it claims. Only the full ACES 2.0 transform uses it; the other roll-offs have no notion of an absolute peak. HDR10 output only: the 24-bit tone-mapped mode fixes the display at the 100-nit SDR reference."
+msgstr "Přepisuje špičkový jas nahlášený frontendem. Tónová škála ACES 2.0 je parametrizována tímto jediným číslem a při jeho změně se znovu sestaví, takže se přepracuje celá transformace místo pouhého škálování výstupu – střední šedá dopadne na 10.0 nitů při špičce 100 nitů, 14.5 při 1000 a 17.8 při 10000, přičemž posun světlých míst se přizpůsobí. Ponechte Automaticky, pokud frontend nic nehlásí, použijte 1000, nebo pokud se skutečná špička displeje liší od nahlášené hodnoty. Používá ji pouze úplná transformace ACES 2.0; ostatní posuny nemají pojem absolutní špičky. Pouze výstup HDR10: režim 24bitového tónového mapování nastaví displej na referenčních 100 nitů SDR."
+
+msgctxt "#30130"
+msgid "Auto (ask the frontend)"
+msgstr "Automaticky (dotázat se frontendu)"
+
+msgctxt "#30131"
+msgid "400 nits"
+msgstr "400 nitů"
+
+msgctxt "#30132"
+msgid "600 nits"
+msgstr "600 nitů"
+
+msgctxt "#30133"
+msgid "1000 nits"
+msgstr "1000 nitů"
+
+msgctxt "#30134"
+msgid "1500 nits"
+msgstr "1500 nitů"
+
+msgctxt "#30135"
+msgid "2000 nits"
+msgstr "2000 nitů"
+
+msgctxt "#30136"
+msgid "4000 nits"
+msgstr "4000 nitů"
+
+msgctxt "#30137"
+msgid "The game renders into a 0-1 range, so without expansion the brightness above paper white carries only bloom and whatever accumulated past white - ordinary bright pixels stop at paper white. Expansion lifts the top of the range into that headroom so highlights read as brighter than white. Mid-tones below the knee are never moved, which is what keeps the image from looking washed out. 'Inverse Tonemap' expands each colour channel on its own: simple, and it over-saturates bright colours and shifts their hue toward whichever channel was strongest. 'Hue-Preserving' expands the luminance and scales the channels together, so a highlight gets brighter along its own colour instead of drifting. No effect on SDR output."
+msgstr "Engine vykresluje do rozsahu 0–1, takže bez rozšíření jas nad referenční bílou obsahuje pouze záři a cokoli, co se nahromadilo nad bílou – běžné jasné pixely se u referenční bílé zastaví. Rozšíření zvedne horní hranici rozsahu do této rezervy, takže světlá místa vypadají jasněji než bílá. Střední tóny pod kolenem se nikdy neposouvají, což brání vybledlému vzhledu. „Inverzní tonemapping“ rozšíří každý barevný kanál samostatně: je jednoduchý, ale přesytí jasné barvy a posune jejich odstín ke kanálu, který byl nejsilnější. „Se zachováním odstínu“ rozšíří jas a škáluje kanály společně, takže světlé místo zesvětlá ve vlastní barvě místo posunu. Na SDR výstup nemá účinek."
+
+msgctxt "#30138"
+msgid "None"
+msgstr "Žádné"
+
+msgctxt "#30139"
+msgid "Inverse Tonemap (Basic Expansion)"
+msgstr "Inverzní tonemapping (základní rozšíření)"
+
+msgctxt "#30140"
+msgid "Hue-Preserving Expansion"
+msgstr "Rozšíření se zachováním odstínu"
+
+msgctxt "#30141"
+msgid "How highlights use the headroom between paper white and the display's peak in 30-bit HDR mode. Reinhard (Soft-Knee) is the reference: mid-tones match 24-bit output exactly, only the top end eases toward the peak, and highlights use the full headroom. ACES (Filmic) applies the ACES curve normalized to paper white, which visibly LIFTS mid-tone brightness (mid grey rises from 0.18 to 0.33) as well as reshaping highlights - a deliberate, brighter filmic look, not a calibration error. Hejl (Filmic) is the Hejl and Burgess-Dawson curve, lifting mid-tones by about the same amount as ACES but with a harder shoulder, so highlights compress later and more abruptly - more contrast in the upper mid-tones. Both filmic curves flatten out on their own (ACES at 1.29x paper white, Hejl at 1.46x), so both are carried out to the display peak by a shoulder rather than stopping there. Pick Reinhard for a faithful comparison against 24-bit. Where the filmic curves put mid grey, and how far their highlights reach before the shoulder takes over: GT 0.216 at 1.21x, Hable 0.221 at 4.23x, Drago 0.277 at 7.95x, ACES 0.330 at 1.29x, Hejl 0.330 at 1.46x, Unreal 0.350 at 1.37x. Lottes is the outlier - mid grey drops to 0.074 in exchange for a 12.3x highlight range, so it is far darker and contrastier than the rest. Two entries mention ACES 2.0 and they are not the same thing: 'ACES 2.0 Tone Scale' is that curve alone applied per channel, while 'ACES 2.0 (Full Output Transform)' is the whole thing - appearance model, chroma compression, gamut compression - which desaturates highlights toward white instead of letting one channel clip on its own. It wants real scene range rather than fabricated range: pair it with FP16 Scene Precision and unbounded blending, which let multi-pass lights accumulate past 1.0 for real, and turn HDR Expansion off - expansion invents that range per channel, which arrives at the transform as extra saturation it then has to undo. It is also absolute: it decides luminance itself from the display's peak, so the Paper White setting acts on it as exposure rather than as a straight output multiply: the scene is exposed by it and the transform then decides luminance, so the setting still moves the picture where it says while the highlight roll-off stays the transform's."
+msgstr "Jak světlá místa využívají rezervu mezi referenční bílou a špičkou displeje v 30bitovém režimu HDR. Reinhard (měkké koleno) je reference: střední tóny přesně odpovídají 24bitovému výstupu, pouze horní konec se uvolňuje směrem ke špičce a světlá místa využívají celou rezervu. ACES (filmová) aplikuje křivku ACES normalizovanou na referenční bílou, což viditelně ZVYŠUJE jas středních tónů (střední šedá roste z 0.18 na 0.33) a zároveň přetváří světlá místa – záměrně jasnější filmový vzhled, ne chyba kalibrace. Hejl (filmová) je křivka Hejla a Burgess-Dawsona, která zvyšuje střední tóny přibližně stejně jako ACES, ale má tvrdší rameno, takže světlá místa se komprimují později a náhleji – větší kontrast v horních středních tónech. Obě filmové křivky se samy zplošťují (ACES na 1.29násobku referenční bílé, Hejl na 1.46násobku), takže obě pokračují ke špičce displeje pomocí ramene místo zastavení. Pro věrné porovnání s 24bitovým výstupem zvolte Reinhard. Umístění střední šedé u filmových křivek a dosah světlých míst před převzetím ramenem: GT 0.216 při 1.21x, Hable 0.221 při 4.23x, Drago 0.277 při 7.95x, ACES 0.330 při 1.29x, Hejl 0.330 při 1.46x, Unreal 0.350 při 1.37x. Lottes je výjimka – střední šedá klesne na 0.074 výměnou za rozsah světlých míst 12.3x, takže je mnohem tmavší a kontrastnější než ostatní. Dvě položky zmiňují ACES 2.0 a nejde o totéž: „Škála tónů ACES 2.0“ je pouze tato křivka aplikovaná na každý kanál, zatímco „ACES 2.0 (úplná transformace výstupu)“ je celé řešení – model vzhledu, komprese chromatičnosti a komprese gamutu – které desaturuje světlá místa směrem k bílé místo samostatného ořezání jednoho kanálu. Potřebuje skutečný rozsah scény, nikoli vytvořený: spojte ji s přesností scény FP16 a neomezeným prolnutím, které umožní víceprůchodovým světlům skutečně se nahromadit nad 1.0, a vypněte rozšíření HDR – to tento rozsah vymýšlí po kanálech a do transformace přichází jako další sytost, kterou musí zrušit. Je také absolutní: určuje jas sama podle špičky displeje, takže nastavení referenční bílé na ní působí jako expozice, nikoli jako prosté násobení výstupu: scéna se jím exponuje a transformace pak určí jas, takže nastavení stále posune obraz podle popisu, zatímco posun světlých míst zůstane vlastností transformace."
+
+msgctxt "#30142"
+msgid "Reinhard (Soft-Knee)"
+msgstr "Reinhard (měkké koleno)"
+
+msgctxt "#30143"
+msgid "Reinhard (Plain)"
+msgstr "Reinhard (prostý)"
+
+msgctxt "#30144"
+msgid "Reinhard (Extended, White 4)"
+msgstr "Reinhard (rozšířený, bílá 4)"
+
+msgctxt "#30145"
+msgid "Reinhard-Jodie (Hue-Preserving)"
+msgstr "Reinhard-Jodie (zachování odstínu)"
+
+msgctxt "#30146"
+msgid "Reinhard-Devlin (Classic)"
+msgstr "Reinhard-Devlin (klasický)"
+
+msgctxt "#30147"
+msgid "ACES (Narkowicz)"
+msgstr "ACES (Narkowicz)"
+
+msgctxt "#30148"
+msgid "ACES Fitted (Hill)"
+msgstr "ACES Fitted (Hill)"
+
+msgctxt "#30149"
+msgid "ACES 2.0 Tone Scale"
+msgstr "Škála tónů ACES 2.0"
+
+msgctxt "#30150"
+msgid "ACES 2.0 (Full Output Transform)"
+msgstr "ACES 2.0 (úplná transformace výstupu)"
+
+msgctxt "#30151"
+msgid "Hejl (Filmic)"
+msgstr "Hejl (filmový)"
+
+msgctxt "#30152"
+msgid "Filmic ALU (Hejl 2015)"
+msgstr "Filmový ALU (Hejl 2015)"
+
+msgctxt "#30153"
+msgid "Filmic (Sobotka)"
+msgstr "Filmový (Sobotka)"
+
+msgctxt "#30154"
+msgid "Hable (Uncharted 2)"
+msgstr "Hable (Uncharted 2)"
+
+msgctxt "#30155"
+msgid "Hable (2017 Piecewise)"
+msgstr "Hable (po částech 2017)"
+
+msgctxt "#30156"
+msgid "Lottes (AMD)"
+msgstr "Lottes (AMD)"
+
+msgctxt "#30157"
+msgid "GT (Uchimura)"
+msgstr "GT (Uchimura)"
+
+msgctxt "#30158"
+msgid "Unreal"
+msgstr "Unreal"
+
+msgctxt "#30159"
+msgid "Khronos PBR Neutral"
+msgstr "Khronos PBR Neutral"
+
+msgctxt "#30160"
+msgid "AgX"
+msgstr "AgX"
+
+msgctxt "#30161"
+msgid "Drago (Logarithmic)"
+msgstr "Drago (logaritmický)"
+
+msgctxt "#30162"
+msgid "Exponential"
+msgstr "Exponenciální"
+
+msgctxt "#30163"
+msgid "Tumblin-Rushmeier (Classic)"
+msgstr "Tumblin-Rushmeier (klasický)"
+
+msgctxt "#30164"
+msgid "Ward (Classic, Linear)"
+msgstr "Ward (klasický, lineární)"
+
+msgctxt "#30165"
+msgid "Schlick (Classic)"
+msgstr "Schlick (klasický)"
+
+msgctxt "#30166"
+msgid "What happens to a mix that runs past full scale. Doom 3 mixes hot, and the classic behaviour is a soft-knee saturator that bends every sample above three quarters of full scale on its own - it does not turn loud passages down, it distorts them. Limiter computes a gain from the signal envelope instead and rides it smoothly, so the waveform keeps its shape and only its level moves: measured on a tone driven 40% past full scale, distortion falls from 14.3% to 0.93%. Quiet material is untouched either way, bit for bit. Costs about 0.02% of audio processing time. Applies to the 32-bit float output path only."
+msgstr "Co se stane se směsí, která překročí plný rozsah. Doom 3 míchá signál s vysokou úrovní a klasické chování je saturátor s měkkým kolenem, který samostatně ohne každý vzorek nad třemi čtvrtinami plného rozsahu – neztlumí hlasité pasáže, ale zkreslí je. Omezovač místo toho vypočítá zesílení z obálky signálu a plynule je upravuje, takže průběh zachová svůj tvar a změní se pouze úroveň: při měření na tónu vybuzeném o 40 % nad plný rozsah klesne zkreslení ze 14,3 % na 0,93 %. Tichý materiál zůstane v obou případech beze změny, bit po bitu. Stojí přibližně 0,02 % času zpracování zvuku. Použije se pouze na výstupní cestě 32bitové plovoucí čárky."
+
+msgctxt "#30167"
+msgid "Soft Knee (Classic)"
+msgstr "Měkké koleno (klasické)"
+
+msgctxt "#30168"
+msgid "Peak Limiter"
+msgstr "Omezovač špiček"
+
+msgctxt "#30169"
+msgid "Pads the mix before the output stage, trading loudness for room. Doom 3 mixes hot enough that a loud hit forces the limiter to pull the whole mix down, and the quiet ambience underneath is dragged with it until the release lets go - measured with a 20 ms hit over a quiet bed, the bed ducks 3.4 dB at 0, 1.6 dB at -3, and not at all at -6, where the hit fits without any gain reduction. The cost is exactly the number chosen: everything is that much quieter, and you make it back on your own volume control. Needs the Peak Limiter output stage to be worth anything, and applies to the 32-bit float path only."
+msgstr "Před výstupní fázi vloží rezervu do směsi a vymění hlasitost za prostor. Doom 3 míchá s tak vysokou úrovní, že hlasitý úder donutí omezovač stáhnout celou směs a tiché pozadí pod ním se táhne dolů, dokud se neuvolní – při měření s úderem 20 ms nad tichým podkladem podklad klesne o 3,4 dB při 0, o 1,6 dB při -3 a vůbec při -6, kdy se úder vejde bez snížení zesílení. Cena je přesně zvolená hodnota: vše je o tolik tišší a hlasitost si vrátíte vlastním ovladačem. Má význam pouze s výstupní fází Peak Limiter a vztahuje se jen na cestu 32bitové plovoucí čárky."
+
+msgctxt "#30170"
+msgid "0 dB (loudest)"
+msgstr "0 dB (nejhlasitější)"
+
+msgctxt "#30171"
+msgid "-3 dB"
+msgstr "-3 dB"
+
+msgctxt "#30172"
+msgid "-6 dB (most dynamic range)"
+msgstr "-6 dB (největší dynamický rozsah)"
+
+msgctxt "#30173"
+msgid "The viewing-environment compensation from the ACES 2.0 transform: dim is the reference assumption and the previous fixed behaviour; dark suits a lights-off room, average a bright one. Changing it re-solves the transform tables. Only affects the aces2full curve."
+msgstr "Kompenzace prostředí pro sledování z transformace ACES 2.0: tlumené je referenční předpoklad a předchozí pevné chování; tmavé se hodí do místnosti bez světel, průměrné do světlé místnosti. Změna znovu vypočítá tabulky transformace. Ovlivňuje pouze křivku aces2full."
+
+msgctxt "#30174"
+msgid "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression works by pulling out-of-range colour onto a boundary, so the boundary should be the one the display actually has. Most HDR displays are close to P3, which covers about 72% of Rec.2020 - leaving this at Rec.2020 on such a panel means the compression stops short and the panel clips the difference itself, which is the harsh clipping the transform exists to avoid. Rec.709 is for an SDR-gamut display. Only affects the full transform; no other roll-off has a gamut to limit to."
+msgstr "Který gamut má úplná transformace ACES 2.0 komprimovat. Komprese gamutu stahuje barvy mimo rozsah na hranici, proto by hranice měla odpovídat skutečnému gamutu displeje. Většina HDR displejů je blízko P3, který pokrývá přibližně 72 % Rec.2020 – ponechání Rec.2020 na takovém panelu znamená, že komprese skončí příliš brzy a panel rozdíl ořízne sám; právě tomuto ostrému ořezu má transformace zabránit. Rec.709 je určen pro displej s gamutem SDR. Ovlivňuje pouze úplnou transformaci; žádná jiná roll-off křivka nemá gamut, který by bylo třeba omezovat."
+
+msgctxt "#30175"
+msgid "Rec.2020 (widest)"
+msgstr "Rec.2020 (nejširší)"
+
+msgctxt "#30176"
+msgid "P3-D65 (most HDR displays)"
+msgstr "P3-D65 (většina HDR displejů)"
+
+msgctxt "#30177"
+msgid "Rec.709 (SDR gamut)"
+msgstr "Rec.709 (gamut SDR)"
+
+msgctxt "#30178"
+msgid "A grade applied only under the AgX transform. Punchy is the official higher-contrast, higher-saturation look - contrast 1.35 and saturation 1.4 - expressed on this pipeline's ordering: the grade sits on the transform's output. Ignored by every other curve."
+msgstr "Vzhled použitý pouze v transformaci AgX. Punchy je oficiální vzhled s vyšším kontrastem a sytostí – kontrast 1,35 a sytost 1,4 – vyjádřený v pořadí této pipeline: vzhled se aplikuje na výstupu transformace. Ostatní křivky ho ignorují."
+
+msgctxt "#30179"
+msgid "Where GT's linear section starts. Everything below this is the toe, so a larger value gives a longer, softer approach out of black and slightly darker mid-tones; a smaller one puts more of the image on the straight section. Only affects the GT (Uchimura) roll-off."
+msgstr "Kde začíná lineární část křivky GT. Vše pod touto hodnotou je pata, takže větší hodnota prodlouží měkčí přechod z černé a mírně ztmaví střední tóny; menší hodnota přesune větší část obrazu do přímé části. Ovlivňuje pouze křivku GT (Uchimura)."
+
+msgctxt "#30180"
+msgid "0.10 (short toe)"
+msgstr "0.10 (krátká pata)"
+
+msgctxt "#30181"
+msgid "0.16"
+msgstr "0.16"
+
+msgctxt "#30182"
+msgid "0.22 (default)"
+msgstr "0.22 (výchozí)"
+
+msgctxt "#30183"
+msgid "0.30"
+msgstr "0.30"
+
+msgctxt "#30184"
+msgid "0.40 (long toe)"
+msgstr "0.40 (dlouhá pata)"
+
+msgctxt "#30185"
+msgid "How much of the range stays perfectly linear before the shoulder takes over. Longer keeps mid-tones truer and bends later but more sharply; shorter starts easing into the highlights sooner. Only affects the GT (Uchimura) roll-off."
+msgstr "Jak velká část rozsahu zůstane dokonale lineární, než převezme řízení rameno. Delší hodnota zachová věrnější střední tóny a ohne se později, ale ostřeji; kratší začne přecházet do světlých míst dříve. Ovlivňuje pouze křivku GT (Uchimura)."
+
+msgctxt "#30186"
+msgid "0.20 (early shoulder)"
+msgstr "0.20 (časné rameno)"
+
+msgctxt "#30187"
+msgid "0.40 (default)"
+msgstr "0.40 (výchozí)"
+
+msgctxt "#30188"
+msgid "0.50"
+msgstr "0.50"
+
+msgctxt "#30189"
+msgid "0.70 (late shoulder)"
+msgstr "0.70 (pozdní rameno)"
+
+msgctxt "#30190"
+msgid "Which of Sobotka's seven contrast curves Filmic Log uses. They are separately authored lookups rather than one curve with a knob, and what separates them is the low end - at a scene value of 0.002, the sort of dim specular a distant emergency light leaves on wet metal, Very Low returns 0.0078 where Very High returns 0.00001. Lower contrast lifts those highlights enough to tell matte armour from wet organic growth from a steel door while the room around them stays dark; higher contrast crushes them for a harder, more claustrophobic look. Base is Blender's default."
+msgstr "Kterou ze sedmi kontrastních křivek Sobotka používá Filmic Log. Jsou to samostatně vytvořené vyhledávací tabulky, nikoli jedna křivka s nastavením; liší se spodní částí – při hodnotě scény 0,002, což odpovídá slabému zrcadlovému odlesku vzdáleného nouzového světla na mokrém kovu, vrací Very Low hodnotu 0,0078, zatímco Very High vrací 0,00001. Nižší kontrast zvýrazní tyto odlesky natolik, aby bylo možné rozlišit matné brnění, mokrý organický porost a ocelové dveře, zatímco okolí zůstane tmavé; vyšší kontrast je potlačí pro tvrdší a stísněnější vzhled. Base je výchozí hodnota Blenderu."
+
+msgctxt "#30191"
+msgid "Very Low (most shadow detail)"
+msgstr "Velmi nízký (nejvíce detailů ve stínech)"
+
+msgctxt "#30192"
+msgid "Low"
+msgstr "Nízký"
+
+msgctxt "#30193"
+msgid "Medium"
+msgstr "Střední"
+
+msgctxt "#30194"
+msgid "Base (default)"
+msgstr "Základní (výchozí)"
+
+msgctxt "#30195"
+msgid "Medium High"
+msgstr "Středně vysoký"
+
+msgctxt "#30196"
+msgid "High"
+msgstr "Vysoký"
+
+msgctxt "#30197"
+msgid "Very High (most crushed)"
+msgstr "Velmi vysoký (nejvíce potlačených detailů)"
+
+msgctxt "#30198"
+msgid "How many stops above mid grey the Filmic Log roll-off's encode covers. Blender's default is about 4, which was chosen for camera footage where 1.0 is a nominal white - it saturates at a scene value of 19 and everything brighter maps identically. This engine's HDR scene routinely goes past that: multi-pass lights accumulate unbounded on an FP16 target and the specular boost multiplies on top, so bright speculars and bloom land in the flat region. Widening the range keeps them separable at the cost of lifting mid grey slightly - 0.389 at 4 stops, 0.416 at 6, 0.442 at 8. Only affects that one roll-off."
+msgstr "Kolik stupňů nad střední šedí pokrývá kódování křivky Filmic Log. Výchozí hodnota Blenderu je přibližně 4, zvolená pro kamerové záběry, kde 1.0 je nominální bílá – saturuje při hodnotě scény 19 a vše jasnější se zobrazí stejně. HDR scéna tohoto enginu ji běžně překračuje: víceprůchodová světla se na cíli FP16 neomezeně sčítají a na ně se násobí zvýraznění zrcadlových odlesků, takže jasné odlesky a záře skončí v ploché oblasti. Rozšíření rozsahu je udrží rozlišitelné za cenu mírného zvýšení střední šedi – 0.389 při 4 stupních, 0.416 při 6 a 0.442 při 8. Ovlivňuje pouze tuto jednu křivku."
+
+msgctxt "#30199"
+msgid "4 stops (Blender default)"
+msgstr "4 stupně (výchozí Blenderu)"
+
+msgctxt "#30200"
+msgid "6 stops (saturates at 64)"
+msgstr "6 stupňů (saturuje při 64)"
+
+msgctxt "#30201"
+msgid "8 stops (saturates at 256)"
+msgstr "8 stupňů (saturuje při 256)"
+
+msgctxt "#30202"
+msgid "10 stops (saturates at 1024)"
+msgstr "10 stupňů (saturuje při 1024)"
+
+msgctxt "#30203"
+msgid "Keeps the hue of saturated highlights. Without it a bright colour clips one channel at a time and its hue slides toward whichever channel survives - a hot orange goes yellow, then white. With it the colour is mixed toward an achromatic peak by however much that peak was compressed, so it desaturates along its own hue instead of drifting off it. Neutral, ACES 2.0 (Full) and AgX already do this internally, so this row only appears for the curves that need it."
+msgstr "Zachovává odstín nasycených světlých míst. Bez této volby se jasná barva ořezává po jednom kanálu a její odstín se posouvá k tomu, který přežije – sytá oranžová přejde do žluté a potom do bílé. S touto volbou se barva míchá směrem k achromatickému maximu podle míry komprese tohoto maxima, takže se desaturuje podél vlastního odstínu místo posunu. Neutrální, ACES 2.0 (Full) a AgX to už provádějí interně, takže se tato položka zobrazuje pouze u křivek, které to potřebují."
+
+msgctxt "#30204"
+msgid "Binaural rendering of spatialized sounds through the built-in KEMAR HRTF - positional audio for headphones. Sounds wrong on speakers. 'Auto' leaves the s_HRTF cvar in charge, so console or config settings are respected; 'Enabled'/'Disabled' override it."
+msgstr "Binaurální vykreslování prostorových zvuků pomocí vestavěného HRTF KEMAR – poziční zvuk pro sluchátka. Na reproduktorech zní nesprávně. „Automaticky“ ponechá na starosti cvar s_HRTF, takže se respektuje nastavení konzole nebo konfigurace; „Povoleno“/„Zakázáno“ ho přepíší."
+
+msgctxt "#30205"
+msgid "Auto (s_HRTF cvar)"
+msgstr "Automaticky (cvar s_HRTF)"
+
+msgctxt "#30206"
+msgid "Choose the resolution to render at."
+msgstr "Zvolit rozlišení, ve kterém se má vykreslovat."
+
+msgctxt "#30207"
+msgid "1920x1080 (Default)"
+msgstr "1920x1080 (výchozí)"
+
+msgctxt "#30208"
+msgid "Select the engine quality preset."
+msgstr "Vybrat předvolbu kvality enginu."
+
+msgctxt "#30209"
+msgid "Auto (Detect by RAM)"
+msgstr "Automaticky (detekce podle RAM)"
+
+msgctxt "#30210"
+msgid "Ultra"
+msgstr "Ultra"
+
+msgctxt "#30211"
+msgid "Invert the right analog stick's Y axis."
+msgstr "Invertovat osu Y pravého analogového ovladače."
+
+msgctxt "#30212"
+msgid "Adjust mouse look sensitivity when using the Keyboard + Mouse input device. Higher values = faster camera movement. Has no effect in gamepad modes."
+msgstr "Nastavit citlivost pohledu myší při použití vstupního zařízení Klávesnice + myš. Vyšší hodnoty = rychlejší pohyb kamery. V režimech gamepadu nemá žádný účinek."
+
+msgctxt "#30213"
+msgid "0.5 (Very Slow)"
+msgstr "0.5 (velmi pomalá)"
+
+msgctxt "#30214"
+msgid "1.0 (Slow)"
+msgstr "1.0 (pomalá)"
+
+msgctxt "#30215"
+msgid "1.5"
+msgstr "1.5"
+
+msgctxt "#30216"
+msgid "2.0"
+msgstr "2.0"
+
+msgctxt "#30217"
+msgid "2.5"
+msgstr "2.5"
+
+msgctxt "#30218"
+msgid "3.0 (Default)"
+msgstr "3.0 (výchozí)"
+
+msgctxt "#30219"
+msgid "4.0"
+msgstr "4.0"
+
+msgctxt "#30220"
+msgid "5.0 (Fast)"
+msgstr "5.0 (rychlá)"
+
+msgctxt "#30221"
+msgid "6.0"
+msgstr "6.0"
+
+msgctxt "#30222"
+msgid "8.0 (Very Fast)"
+msgstr "8.0 (velmi rychlá)"
+
+#~ msgctxt "#30020"
+#~ msgid "HDR Highlight Roll-Off"
+#~ msgstr "Plynulé omezení světlých míst HDR"
+
+#~ msgctxt "#30004"
+#~ msgid "Show FPS"
+#~ msgstr "Zobrazit FPS"
