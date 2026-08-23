@@ -20,8 +20,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
-							<option>enabled</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -200,8 +200,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
-							<option>enabled</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -211,7 +211,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option label="30107">2x2</option>
 						</options>
 					</constraints>
@@ -222,7 +222,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option label="30109">subtle</option>
 							<option label="30110">strong</option>
 							<option label="30111">heavy</option>
@@ -236,7 +236,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option label="30101">subtle</option>
 							<option label="30114">strong</option>
 						</options>
@@ -271,7 +271,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option label="30121">bright</option>
 							<option label="30122">intense</option>
 							<option label="30123">blinding</option>
@@ -284,8 +284,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
-							<option>enabled</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -295,7 +295,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option label="30126">slight</option>
 							<option label="30127">subtle</option>
 							<option label="30128">strong</option>
@@ -416,8 +416,8 @@
 					<default>default</default>
 					<constraints>
 						<options>
-							<option>default</option>
-							<option>punchy</option>
+							<option label="571">default</option>
+							<option label="30223">punchy</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -484,8 +484,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
-							<option>enabled</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -496,8 +496,8 @@
 					<constraints>
 						<options>
 							<option label="30205">auto</option>
-							<option>disabled</option>
-							<option>enabled</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -507,39 +507,39 @@
 					<default>1920x1080</default>
 					<constraints>
 						<options>
-							<option>320x240</option>
-							<option>400x300</option>
-							<option>512x384</option>
-							<option>640x480</option>
-							<option>800x600</option>
-							<option>1024x768</option>
-							<option>1152x864</option>
-							<option>1280x1024</option>
-							<option>1600x1200</option>
-							<option>1280x720</option>
-							<option>1366x768</option>
-							<option>1440x900</option>
-							<option>1400x1050</option>
-							<option>1600x900</option>
-							<option>1680x1050</option>
+							<option label="30224">320x240</option>
+							<option label="30225">400x300</option>
+							<option label="30226">512x384</option>
+							<option label="30227">640x480</option>
+							<option label="30228">800x600</option>
+							<option label="30229">1024x768</option>
+							<option label="30230">1152x864</option>
+							<option label="30231">1280x1024</option>
+							<option label="30232">1600x1200</option>
+							<option label="30233">1280x720</option>
+							<option label="30234">1366x768</option>
+							<option label="30235">1440x900</option>
+							<option label="30236">1400x1050</option>
+							<option label="30237">1600x900</option>
+							<option label="30238">1680x1050</option>
 							<option label="30207">1920x1080</option>
-							<option>1920x1200</option>
-							<option>2048x1152</option>
-							<option>2560x1600</option>
-							<option>3200x2400</option>
-							<option>3840x2160</option>
-							<option>4096x2304</option>
-							<option>2880x1800</option>
-							<option>2560x1440</option>
-							<option>1440x1080</option>
-							<option>1280x800</option>
-							<option>2560x1080</option>
-							<option>3440x1440</option>
-							<option>3840x1600</option>
-							<option>5120x2160</option>
-							<option>3840x1080</option>
-							<option>5120x1440</option>
-							<option>7680x2160</option>
+							<option label="30239">1920x1200</option>
+							<option label="30240">2048x1152</option>
+							<option label="30241">2560x1600</option>
+							<option label="30242">3200x2400</option>
+							<option label="30243">3840x2160</option>
+							<option label="30244">4096x2304</option>
+							<option label="30245">2880x1800</option>
+							<option label="30246">2560x1440</option>
+							<option label="30247">1440x1080</option>
+							<option label="30248">1280x800</option>
+							<option label="30249">2560x1080</option>
+							<option label="30250">3440x1440</option>
+							<option label="30251">3840x1600</option>
+							<option label="30252">5120x2160</option>
+							<option label="30253">3840x1080</option>
+							<option label="30254">5120x1440</option>
+							<option label="30255">7680x2160</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
