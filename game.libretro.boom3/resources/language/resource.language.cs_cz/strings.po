@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.boom3\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2020-01-30 03:06i\n"
-"PO-Revision-Date: 2026-08-22 15:12+0000\n"
+"PO-Revision-Date: 2026-08-23 12:08+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-boom3/cs_cz/>\n"
 "Language: cs_cz\n"
@@ -375,7 +375,7 @@ msgstr "Když je pixel pro buffer příliš jasný, posunout ho směrem k jeho v
 
 msgctxt "#30090"
 msgid "Preserves overbright lighting in 30-bit HDR mode. The scene is encoded at half intensity so light sums that previously clamped at white survive into the buffer, and the output pass restores scale - clipped highlights (stacked lights, muzzle flashes, specular sums) regain their shape and land above paper white. HUD and menus stay at exactly paper white. Costs exactly one bit of the 10-bit scene buffer, everywhere and not just in shadows: the scene occupies 512 of 1024 codes, and the output dither cannot recover it, because the expand happens before the decode so each surviving code is already two output codes wide. FP16 scene precision is the better answer if your GPU supports it (any desktop GPU does) and makes this option unnecessary - it is automatically bypassed there. No effect in 24-bit mode."
-msgstr "Zachovává přesvětlené osvětlení v 30bitovém režimu HDR. Scéna se kóduje s poloviční intenzitou, takže součty světel, které se dříve ořezaly na bílé, přežijí v bufferu, a výstupní průchod obnoví měřítko – ořezaná světlá místa (vrstvená světla, záblesky zbraní, součty zrcadlových odlesků) znovu získají tvar a dostanou se nad referenční bílou. HUD a nabídky zůstanou přesně na referenční bílé. Stojí přesně jeden bit 10bitového bufferu scény, všude, nejen ve stínech: scéna zabere 512 z 1024 kódů a výstupní dithering ho nedokáže obnovit, protože rozšíření proběhne před dekódováním, takže každý přeživší kód už má šířku dvou výstupních kódů. Přesnost scény FP16 je lepší řešení, pokud ji GPU podporuje (podporuje ji každý desktopový GPU), a tuto volbu nepotřebuje – tam se automaticky obchází. V režimu 24 bitů nemá účinek."
+msgstr "V 30bitovém režimu HDR zachovává osvětlení přesahující úroveň bílé. Scéna se kóduje s poloviční intenzitou, takže se v bufferu zachovají součty světelných příspěvků, které se dříve omezovaly na úroveň bílé, a výstupní průchod vrátí hodnoty do původního měřítka – oříznuté světelné špičky (překrývající se světla, záblesky u ústí hlavně a součty zrcadlových složek) znovu získají tvar a dosáhnou nad úroveň referenční bílé. HUD a nabídky zůstanou přesně na úrovni referenční bílé. Ubírá přesně jeden bit přesnosti 10bitového bufferu scény v celém rozsahu, nejen ve stínech: scéna využívá 512 z 1024 kódových hodnot a výstupní dithering ztracený bit nedokáže obnovit, protože rozšíření probíhá před dekódováním, takže každá zachovaná kódová hodnota už zabírá rozsah dvou výstupních kódových hodnot. Lepším řešením je buffer scény s přesností FP16, pokud jej váš grafický procesor podporuje (podporuje jej každý grafický procesor pro stolní počítače). Při FP16 není tato volba potřeba a automaticky se vynechá. V 24bitovém režimu nemá žádný účinek."
 
 msgctxt "#30091"
 msgid "Bright particle systems become real light sources in 30-bit HDR mode: the largest spark/ember clusters in view drive a small pool of genuine dynamic lights, casting localized diffuse and specular highlights onto nearby surfaces through the engine's normal shading path. Shadowless by design. Each active light adds interaction passes on nearby geometry - the 4-light setting is the performance-heavy choice. Live-switchable."
@@ -904,6 +904,138 @@ msgstr "6.0"
 msgctxt "#30222"
 msgid "8.0 (Very Fast)"
 msgstr "8.0 (velmi rychlá)"
+
+msgctxt "#30223"
+msgid "punchy"
+msgstr "Výrazný"
+
+msgctxt "#30224"
+msgid "320x240"
+msgstr "320x240"
+
+msgctxt "#30225"
+msgid "400x300"
+msgstr "400x300"
+
+msgctxt "#30226"
+msgid "512x384"
+msgstr "512x384"
+
+msgctxt "#30227"
+msgid "640x480"
+msgstr "640x480"
+
+msgctxt "#30228"
+msgid "800x600"
+msgstr "800x600"
+
+msgctxt "#30229"
+msgid "1024x768"
+msgstr "1024x768"
+
+msgctxt "#30230"
+msgid "1152x864"
+msgstr "1152x864"
+
+msgctxt "#30231"
+msgid "1280x1024"
+msgstr "1280x1024"
+
+msgctxt "#30232"
+msgid "1600x1200"
+msgstr "1600x1200"
+
+msgctxt "#30233"
+msgid "1280x720"
+msgstr "1280x720"
+
+msgctxt "#30234"
+msgid "1366x768"
+msgstr "1366x768"
+
+msgctxt "#30235"
+msgid "1440x900"
+msgstr "1440x900"
+
+msgctxt "#30236"
+msgid "1400x1050"
+msgstr "1400x1050"
+
+msgctxt "#30237"
+msgid "1600x900"
+msgstr "1600x900"
+
+msgctxt "#30238"
+msgid "1680x1050"
+msgstr "1680x1050"
+
+msgctxt "#30239"
+msgid "1920x1200"
+msgstr "1920x1200"
+
+msgctxt "#30240"
+msgid "2048x1152"
+msgstr "2048x1152"
+
+msgctxt "#30241"
+msgid "2560x1600"
+msgstr "2560x1600"
+
+msgctxt "#30242"
+msgid "3200x2400"
+msgstr "3200x2400"
+
+msgctxt "#30243"
+msgid "3840x2160"
+msgstr "3840x2160"
+
+msgctxt "#30244"
+msgid "4096x2304"
+msgstr "4096x2304"
+
+msgctxt "#30245"
+msgid "2880x1800"
+msgstr "2880x1800"
+
+msgctxt "#30246"
+msgid "2560x1440"
+msgstr "2560x1440"
+
+msgctxt "#30247"
+msgid "1440x1080"
+msgstr "1440x1080"
+
+msgctxt "#30248"
+msgid "1280x800"
+msgstr "1280x800"
+
+msgctxt "#30249"
+msgid "2560x1080"
+msgstr "2560x1080"
+
+msgctxt "#30250"
+msgid "3440x1440"
+msgstr "3440x1440"
+
+msgctxt "#30251"
+msgid "3840x1600"
+msgstr "3840x1600"
+
+msgctxt "#30252"
+msgid "5120x2160"
+msgstr "5120x2160"
+
+msgctxt "#30253"
+msgid "3840x1080"
+msgstr "3840x1080"
+
+msgctxt "#30254"
+msgid "5120x1440"
+msgstr "5120x1440"
+
+msgctxt "#30255"
+msgid "7680x2160"
+msgstr "7680x2160"
 
 #~ msgctxt "#30020"
 #~ msgid "HDR Highlight Roll-Off"

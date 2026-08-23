@@ -905,6 +905,138 @@ msgctxt "#30222"
 msgid "8.0 (Very Fast)"
 msgstr ""
 
+msgctxt "#30223"
+msgid "punchy"
+msgstr ""
+
+msgctxt "#30224"
+msgid "320x240"
+msgstr ""
+
+msgctxt "#30225"
+msgid "400x300"
+msgstr ""
+
+msgctxt "#30226"
+msgid "512x384"
+msgstr ""
+
+msgctxt "#30227"
+msgid "640x480"
+msgstr ""
+
+msgctxt "#30228"
+msgid "800x600"
+msgstr ""
+
+msgctxt "#30229"
+msgid "1024x768"
+msgstr ""
+
+msgctxt "#30230"
+msgid "1152x864"
+msgstr ""
+
+msgctxt "#30231"
+msgid "1280x1024"
+msgstr ""
+
+msgctxt "#30232"
+msgid "1600x1200"
+msgstr ""
+
+msgctxt "#30233"
+msgid "1280x720"
+msgstr ""
+
+msgctxt "#30234"
+msgid "1366x768"
+msgstr ""
+
+msgctxt "#30235"
+msgid "1440x900"
+msgstr ""
+
+msgctxt "#30236"
+msgid "1400x1050"
+msgstr ""
+
+msgctxt "#30237"
+msgid "1600x900"
+msgstr ""
+
+msgctxt "#30238"
+msgid "1680x1050"
+msgstr ""
+
+msgctxt "#30239"
+msgid "1920x1200"
+msgstr ""
+
+msgctxt "#30240"
+msgid "2048x1152"
+msgstr ""
+
+msgctxt "#30241"
+msgid "2560x1600"
+msgstr ""
+
+msgctxt "#30242"
+msgid "3200x2400"
+msgstr ""
+
+msgctxt "#30243"
+msgid "3840x2160"
+msgstr ""
+
+msgctxt "#30244"
+msgid "4096x2304"
+msgstr ""
+
+msgctxt "#30245"
+msgid "2880x1800"
+msgstr ""
+
+msgctxt "#30246"
+msgid "2560x1440"
+msgstr ""
+
+msgctxt "#30247"
+msgid "1440x1080"
+msgstr ""
+
+msgctxt "#30248"
+msgid "1280x800"
+msgstr ""
+
+msgctxt "#30249"
+msgid "2560x1080"
+msgstr ""
+
+msgctxt "#30250"
+msgid "3440x1440"
+msgstr ""
+
+msgctxt "#30251"
+msgid "3840x1600"
+msgstr ""
+
+msgctxt "#30252"
+msgid "5120x2160"
+msgstr ""
+
+msgctxt "#30253"
+msgid "3840x1080"
+msgstr ""
+
+msgctxt "#30254"
+msgid "5120x1440"
+msgstr ""
+
+msgctxt "#30255"
+msgid "7680x2160"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "설정"
