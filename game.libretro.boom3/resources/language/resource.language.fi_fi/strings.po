@@ -1145,26 +1145,6 @@ msgctxt "#30287"
 msgid "Auto (the display's, else P3-D65)"
 msgstr ""
 
-#~ msgctxt "#30050"
-#~ msgid "Choose the desired frame rate."
-#~ msgstr ""
-
-#~ msgctxt "#30078"
-#~ msgid "24-bit is the standard XRGB8888 output. 30-bit Color (HDR) renders into a 10-bit surface and emits HDR10 (PQ, Rec.2020): use with the frontend's HDR output enabled on an HDR display. The conversion honors the frontend's paper white, peak luminance, and Colour Boost settings, and dithers the 10-bit quantization. 24-bit tone-mapped runs that same scene pipeline - curves, bloom, every enhancement - encoded to the stock 24-bit surface: the full transform family on any SDR display, with no HDR frontend support needed."
-#~ msgstr ""
-
-#~ msgctxt "#30081"
-#~ msgid "30-bit Color (HDR)"
-#~ msgstr ""
-
-#~ msgctxt "#30129"
-#~ msgid "Overrides the peak brightness the frontend reports. ACES 2.0's tone scale is parameterised by this single number and rebuilds when it moves, so it retargets the whole transform rather than just scaling the output - mid grey lands on 10.0 nits at a 100 nit peak, 14.5 at 1000 and 17.8 at 10000, with the roll-off adjusting to match. Leave on Auto unless the frontend reports nothing, in which case it falls back to 1000, or unless your display's real peak differs from what it claims. Only the full ACES 2.0 transform uses it; the other roll-offs have no notion of an absolute peak. HDR10 output only: the 24-bit tone-mapped mode fixes the display at the 100-nit SDR reference."
-#~ msgstr ""
-
-#~ msgctxt "#30174"
-#~ msgid "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression works by pulling out-of-range colour onto a boundary, so the boundary should be the one the display actually has. Most HDR displays are close to P3, which covers about 72% of Rec.2020 - leaving this at Rec.2020 on such a panel means the compression stops short and the panel clips the difference itself, which is the harsh clipping the transform exists to avoid. Rec.709 is for an SDR-gamut display. Only affects the full transform; no other roll-off has a gamut to limit to."
-#~ msgstr ""
-
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Asetukset"
