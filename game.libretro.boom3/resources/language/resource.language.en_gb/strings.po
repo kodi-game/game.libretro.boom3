@@ -214,9 +214,9 @@ msgctxt "#30049"
 msgid "Rebuild moving lights' shadow volumes every rendered frame at the interpolated light position. Removes per-tic shadow popping from rotating/swinging lights at output rates above 60 fps, at some CPU cost. No effect at 60 fps."
 msgstr ""
 
-msgctxt "#30050"
-msgid "Choose the desired frame rate."
-msgstr ""
+#~ msgctxt "#30050"
+#~ msgid "Choose the desired frame rate."
+#~ msgstr ""
 
 msgctxt "#30051"
 msgid "Auto"
@@ -326,9 +326,9 @@ msgctxt "#30077"
 msgid "96kHz"
 msgstr ""
 
-msgctxt "#30078"
-msgid "24-bit is the standard XRGB8888 output. 30-bit Color (HDR) renders into a 10-bit surface and emits HDR10 (PQ, Rec.2020): use with the frontend's HDR output enabled on an HDR display. The conversion honors the frontend's paper white, peak luminance, and Colour Boost settings, and dithers the 10-bit quantization. 24-bit tone-mapped runs that same scene pipeline - curves, bloom, every enhancement - encoded to the stock 24-bit surface: the full transform family on any SDR display, with no HDR frontend support needed."
-msgstr ""
+#~ msgctxt "#30078"
+#~ msgid "24-bit is the standard XRGB8888 output. 30-bit Color (HDR) renders into a 10-bit surface and emits HDR10 (PQ, Rec.2020): use with the frontend's HDR output enabled on an HDR display. The conversion honors the frontend's paper white, peak luminance, and Colour Boost settings, and dithers the 10-bit quantization. 24-bit tone-mapped runs that same scene pipeline - curves, bloom, every enhancement - encoded to the stock 24-bit surface: the full transform family on any SDR display, with no HDR frontend support needed."
+#~ msgstr ""
 
 msgctxt "#30079"
 msgid "24-bit (Standard)"
@@ -338,9 +338,9 @@ msgctxt "#30080"
 msgid "24-bit, tone-mapped"
 msgstr ""
 
-msgctxt "#30081"
-msgid "30-bit Color (HDR)"
-msgstr ""
+#~ msgctxt "#30081"
+#~ msgid "30-bit Color (HDR)"
+#~ msgstr ""
 
 msgctxt "#30082"
 msgid "Scene buffer depth in 30-bit HDR mode. 10-bit quantizes each additive light pass to 10-bit steps and caps accumulation at one stop of headroom via the encoding fold. FP16 (half-float) makes per-pass quantization effectively disappear and removes the accumulation ceiling entirely - light sums build unbounded and roll off only at output. 10-bit also leaves only 2 bits of destination alpha (4 levels instead of 256), so the handful of materials that blend against destination alpha band visibly; FP16 restores full alpha. FP16 costs double the scene buffer bandwidth and requires float render target support (any desktop GPU)."
@@ -530,9 +530,9 @@ msgctxt "#30128"
 msgid "Strong (4x)"
 msgstr ""
 
-msgctxt "#30129"
-msgid "Overrides the peak brightness the frontend reports. ACES 2.0's tone scale is parameterised by this single number and rebuilds when it moves, so it retargets the whole transform rather than just scaling the output - mid grey lands on 10.0 nits at a 100 nit peak, 14.5 at 1000 and 17.8 at 10000, with the roll-off adjusting to match. Leave on Auto unless the frontend reports nothing, in which case it falls back to 1000, or unless your display's real peak differs from what it claims. Only the full ACES 2.0 transform uses it; the other roll-offs have no notion of an absolute peak. HDR10 output only: the 24-bit tone-mapped mode fixes the display at the 100-nit SDR reference."
-msgstr ""
+#~ msgctxt "#30129"
+#~ msgid "Overrides the peak brightness the frontend reports. ACES 2.0's tone scale is parameterised by this single number and rebuilds when it moves, so it retargets the whole transform rather than just scaling the output - mid grey lands on 10.0 nits at a 100 nit peak, 14.5 at 1000 and 17.8 at 10000, with the roll-off adjusting to match. Leave on Auto unless the frontend reports nothing, in which case it falls back to 1000, or unless your display's real peak differs from what it claims. Only the full ACES 2.0 transform uses it; the other roll-offs have no notion of an absolute peak. HDR10 output only: the 24-bit tone-mapped mode fixes the display at the 100-nit SDR reference."
+#~ msgstr ""
 
 msgctxt "#30130"
 msgid "Auto (ask the frontend)"
@@ -710,9 +710,9 @@ msgctxt "#30173"
 msgid "The viewing-environment compensation from the ACES 2.0 transform: dim is the reference assumption and the previous fixed behaviour; dark suits a lights-off room, average a bright one. Changing it re-solves the transform tables. Only affects the aces2full curve."
 msgstr ""
 
-msgctxt "#30174"
-msgid "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression works by pulling out-of-range colour onto a boundary, so the boundary should be the one the display actually has. Most HDR displays are close to P3, which covers about 72% of Rec.2020 - leaving this at Rec.2020 on such a panel means the compression stops short and the panel clips the difference itself, which is the harsh clipping the transform exists to avoid. Rec.709 is for an SDR-gamut display. Only affects the full transform; no other roll-off has a gamut to limit to."
-msgstr ""
+#~ msgctxt "#30174"
+#~ msgid "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression works by pulling out-of-range colour onto a boundary, so the boundary should be the one the display actually has. Most HDR displays are close to P3, which covers about 72% of Rec.2020 - leaving this at Rec.2020 on such a panel means the compression stops short and the panel clips the difference itself, which is the harsh clipping the transform exists to avoid. Rec.709 is for an SDR-gamut display. Only affects the full transform; no other roll-off has a gamut to limit to."
+#~ msgstr ""
 
 msgctxt "#30175"
 msgid "Rec.2020 (widest)"
@@ -1036,4 +1036,132 @@ msgstr ""
 
 msgctxt "#30255"
 msgid "7680x2160"
+msgstr ""
+
+msgctxt "#30256"
+msgid "Renderer (Restart Required)"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Which renderer draws the game, and the context it asks for. 'Auto' follows the frontend's video driver: Vulkan on a Vulkan driver, 'ES3.1' on a core-profile OpenGL driver (glcore), 'ARB2' on a compatibility one (gl). 'ARB2' is the classic desktop path on a compatibility context. 'ES2', 'ES3' and 'ES3.1' are the GLSL renderers of the mobile builds on the desktop context matching their GLES version: OpenGL 2.1, OpenGL 3.3 Core and OpenGL 4.3 Core. 'ES3.1' packs static geometry into shared buffers drawn with base-vertex draws, streams each frame's data through one persistently mapped ring and gives each light interaction its parameters in a uniform buffer. It falls back to 'ES3' where the context lacks what it needs. 'Vulkan' draws straight into the frontend's image on a Vulkan device."
+msgstr ""
+
+msgctxt "#30258"
+msgid "ARB2"
+msgstr ""
+
+msgctxt "#30259"
+msgid "ES2 (OpenGL 2.1)"
+msgstr ""
+
+msgctxt "#30260"
+msgid "ES3 (OpenGL 3.3 Core)"
+msgstr ""
+
+msgctxt "#30261"
+msgid "ES3.1 (OpenGL 4.3 Core)"
+msgstr ""
+
+msgctxt "#30262"
+msgid "Vulkan"
+msgstr ""
+
+msgctxt "#30263"
+msgid "Vulkan Render Thread"
+msgstr ""
+
+msgctxt "#30264"
+msgid "Records and submits the Vulkan renderer's frame on a thread of its own while the core mixes the frame's sound, and hands the GPU the 3D views as soon as they are recorded. The frame is still presented within the same call, so no latency is added. Vulkan renderer only."
+msgstr ""
+
+msgctxt "#30265"
+msgid "ARB2 Program Tier (Restart Required)"
+msgstr ""
+
+msgctxt "#30266"
+msgid "Which assembly programs the ARB2 renderer lights with. 'Auto' takes the highest tier the driver offers. 'ARB Assembly' is the stock ARB vertex/fragment program path every vendor runs, and the only tier outside NVIDIA's own driver; where the driver offers them it uploads each interaction's changed parameters in one call per program (EXT_gpu_program_parameters) and streams the frame's geometry through a persistently mapped ring with static geometry in shared buffers, drawing the same pixels. 'NVIDIA GPU Program 4' (GeForce 8 and later) hands each light interaction its parameters in one parameter-buffer update instead of a call per parameter, normalises the light vector exactly instead of through an 8-bit cube map, and skips the blend for pixels a light cannot reach. 'NVIDIA GPU Program 5' (GeForce 400 and later) draws each light's interactions as multi-draw-indirect batches from shared vertex buffers, with every draw's parameters read by the GPU straight from a persistently mapped ring and its textures from a per-batch texture array: a handful of calls per batch instead of a dozen per draw; where the driver has geometry programs, global stores and transform feedback it also builds dynamic shadow volumes on the GPU, the same triangles the CPU would. A tier the driver lacks falls back to the next one down. ARB2 renderer only."
+msgstr ""
+
+msgctxt "#30267"
+msgid "ARB Assembly"
+msgstr ""
+
+msgctxt "#30268"
+msgid "NVIDIA GPU Program 4"
+msgstr ""
+
+msgctxt "#30269"
+msgid "NVIDIA GPU Program 5"
+msgstr ""
+
+msgctxt "#30270"
+msgid "Static World Shadows"
+msgstr ""
+
+msgctxt "#30271"
+msgid "Draw the shadows the level's static geometry casts, precomputed when the map was built. Disabling it leaves walls and architecture unshadowed while monsters and moving objects keep their shadows; it saves stencil fill in light-heavy rooms. Takes effect at once."
+msgstr ""
+
+msgctxt "#30272"
+msgid "Fog Lights"
+msgstr ""
+
+msgctxt "#30273"
+msgid "Draw fog volumes: the haze, smoke and dust levels place as fog lights. Disabling it removes them and their fill cost. Takes effect at once."
+msgstr ""
+
+msgctxt "#30274"
+msgid "Blend Lights"
+msgstr ""
+
+msgctxt "#30275"
+msgid "Draw blend lights: projected light textures blended over surfaces, such as caustics, flashing hazard washes and some light shafts. Disabling it removes them and their fill cost. Takes effect at once."
+msgstr ""
+
+msgctxt "#30276"
+msgid "Choose the desired frame rate. Auto follows the rate the frontend targets, including a VR headset's refresh once its session runs, so the sound and game speed match it."
+msgstr ""
+
+msgctxt "#30277"
+msgid "24-bit is the standard XRGB8888 output. 30-bit Color (HDR) renders into a 10-bit surface and emits HDR10 (PQ, Rec.2020): use with the frontend's HDR output enabled on an HDR display, and with a video driver that can present one. Most can, including the gl driver on Windows, which accepts it and converts to an scRGB backbuffer. If a driver does refuse it, the core runs the 24-bit tone-mapped path so the display transform still applies. The conversion honors the frontend's paper white, peak luminance, and Colour Boost settings, and dithers the 10-bit quantization. 24-bit tone-mapped runs that same scene pipeline - curves, bloom, every enhancement - encoded to the stock 24-bit surface: the full transform family on any SDR display, with no HDR frontend support needed. 16-bit float scRGB hands the frontend the transformed scene as linear light (Rec.709, 1.0 = 80 nits) in a half-float surface: no PQ curve and no dither on the way out, with the frontend converting to its display. It needs a frontend that offers the surface; one that does not gets HDR10, and failing that the tone-mapped path."
+msgstr ""
+
+msgctxt "#30278"
+msgid "30-bit Color (HDR10)"
+msgstr ""
+
+msgctxt "#30279"
+msgid "16-bit float scRGB (HDR, linear)"
+msgstr ""
+
+msgctxt "#30280"
+msgid "Particle Resolution"
+msgstr ""
+
+msgctxt "#30281"
+msgid "Draws particle systems (smoke, steam, fire, sparks) at half the scene's width and height and blends them onto it in one pass, a quarter of the fill cost where particles pile up. Where the scene's depth breaks behind a particle - an edge in front of it - those pixels are drawn again at full resolution, so particles stay sharp against geometry. With Supersampling this shades particles at the output resolution. 'Half' is close to 'Full' but not identical: soft gradients can differ by a step or two. Needs a scene target the core owns (Supersampling or 30-bit HDR on OpenGL, any Vulkan setup); elsewhere particles draw at full resolution. Live-switchable."
+msgstr ""
+
+msgctxt "#30282"
+msgid "Full"
+msgstr ""
+
+msgctxt "#30283"
+msgid "Half"
+msgstr ""
+
+msgctxt "#30284"
+msgid "Overrides the peak brightness the frontend reports. 'Display' takes the peak the panel itself reports, when the frontend knows it. ACES 2.0's tone scale is parameterised by this single number and rebuilds when it moves, so it retargets the whole transform rather than just scaling the output - mid grey lands on 10.0 nits at a 100 nit peak, 14.5 at 1000 and 17.8 at 10000, with the roll-off adjusting to match. Leave on Auto unless the frontend reports nothing, in which case it falls back to 1000, or unless your display's real peak differs from what it claims. Only the full ACES 2.0 transform uses it; the other roll-offs have no notion of an absolute peak. HDR10 output only: the 24-bit tone-mapped mode fixes the display at the 100-nit SDR reference."
+msgstr ""
+
+msgctxt "#30285"
+msgid "Display (the panel's reported peak)"
+msgstr ""
+
+msgctxt "#30286"
+msgid "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression works by pulling out-of-range colour onto a boundary, so the boundary should be the one the display actually has. 'Auto' takes the display's own primaries when the frontend reports them (from its EDID or the platform), else P3-D65. Most HDR displays are close to P3, which covers about 72% of Rec.2020 - leaving this at Rec.2020 on such a panel means the compression stops short and the panel clips the difference itself, which is the harsh clipping the transform exists to avoid. Rec.709 is for an SDR-gamut display. Only affects the full transform; no other roll-off has a gamut to limit to."
+msgstr ""
+
+msgctxt "#30287"
+msgid "Auto (the display's, else P3-D65)"
 msgstr ""

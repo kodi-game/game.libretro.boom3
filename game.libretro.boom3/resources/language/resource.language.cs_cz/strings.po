@@ -213,10 +213,6 @@ msgctxt "#30049"
 msgid "Rebuild moving lights' shadow volumes every rendered frame at the interpolated light position. Removes per-tic shadow popping from rotating/swinging lights at output rates above 60 fps, at some CPU cost. No effect at 60 fps."
 msgstr "V každém vykresleném snímku znovu sestavit objemy stínů pohybujících se světel v interpolované pozici světla. Odstraňuje poskakování stínů mezi tiky u otáčejících se/kyvných světel při výstupních frekvencích nad 60 snímků/s za cenu určité zátěže CPU. Při 60 snímcích/s nemá žádný účinek."
 
-msgctxt "#30050"
-msgid "Choose the desired frame rate."
-msgstr "Zvolit požadovanou snímkovou frekvenci."
-
 msgctxt "#30051"
 msgid "Auto"
 msgstr "Automaticky"
@@ -325,10 +321,6 @@ msgctxt "#30077"
 msgid "96kHz"
 msgstr "96 kHz"
 
-msgctxt "#30078"
-msgid "24-bit is the standard XRGB8888 output. 30-bit Color (HDR) renders into a 10-bit surface and emits HDR10 (PQ, Rec.2020): use with the frontend's HDR output enabled on an HDR display. The conversion honors the frontend's paper white, peak luminance, and Colour Boost settings, and dithers the 10-bit quantization. 24-bit tone-mapped runs that same scene pipeline - curves, bloom, every enhancement - encoded to the stock 24-bit surface: the full transform family on any SDR display, with no HDR frontend support needed."
-msgstr "24bitový formát je standardní výstup XRGB8888. 30bitové barvy (HDR) vykreslují do 10bitové plochy a vysílají HDR10 (PQ, Rec.2020): použijte s povoleným HDR výstupem frontendu na HDR displeji. Převod respektuje nastavení frontendu pro referenční bílou, špičkový jas a zvýraznění barev a provádí dithering 10bitové kvantizace. 24bitové tónové mapování používá stejnou scénovou pipeline – křivky, záři i všechna vylepšení – kódovanou do standardní 24bitové plochy: celou rodinu transformací na libovolném SDR displeji bez potřeby podpory HDR frontendu."
-
 msgctxt "#30079"
 msgid "24-bit (Standard)"
 msgstr "24bitové (standardní)"
@@ -336,10 +328,6 @@ msgstr "24bitové (standardní)"
 msgctxt "#30080"
 msgid "24-bit, tone-mapped"
 msgstr "24bitové, s tónovým mapováním"
-
-msgctxt "#30081"
-msgid "30-bit Color (HDR)"
-msgstr "30bitové barvy (HDR)"
 
 msgctxt "#30082"
 msgid "Scene buffer depth in 30-bit HDR mode. 10-bit quantizes each additive light pass to 10-bit steps and caps accumulation at one stop of headroom via the encoding fold. FP16 (half-float) makes per-pass quantization effectively disappear and removes the accumulation ceiling entirely - light sums build unbounded and roll off only at output. 10-bit also leaves only 2 bits of destination alpha (4 levels instead of 256), so the handful of materials that blend against destination alpha band visibly; FP16 restores full alpha. FP16 costs double the scene buffer bandwidth and requires float render target support (any desktop GPU)."
@@ -529,10 +517,6 @@ msgctxt "#30128"
 msgid "Strong (4x)"
 msgstr "Silné (4x)"
 
-msgctxt "#30129"
-msgid "Overrides the peak brightness the frontend reports. ACES 2.0's tone scale is parameterised by this single number and rebuilds when it moves, so it retargets the whole transform rather than just scaling the output - mid grey lands on 10.0 nits at a 100 nit peak, 14.5 at 1000 and 17.8 at 10000, with the roll-off adjusting to match. Leave on Auto unless the frontend reports nothing, in which case it falls back to 1000, or unless your display's real peak differs from what it claims. Only the full ACES 2.0 transform uses it; the other roll-offs have no notion of an absolute peak. HDR10 output only: the 24-bit tone-mapped mode fixes the display at the 100-nit SDR reference."
-msgstr "Přepisuje špičkový jas nahlášený frontendem. Tónová škála ACES 2.0 je parametrizována tímto jediným číslem a při jeho změně se znovu sestaví, takže se přepracuje celá transformace místo pouhého škálování výstupu – střední šedá dopadne na 10.0 nitů při špičce 100 nitů, 14.5 při 1000 a 17.8 při 10000, přičemž posun světlých míst se přizpůsobí. Ponechte Automaticky, pokud frontend nic nehlásí, použijte 1000, nebo pokud se skutečná špička displeje liší od nahlášené hodnoty. Používá ji pouze úplná transformace ACES 2.0; ostatní posuny nemají pojem absolutní špičky. Pouze výstup HDR10: režim 24bitového tónového mapování nastaví displej na referenčních 100 nitů SDR."
-
 msgctxt "#30130"
 msgid "Auto (ask the frontend)"
 msgstr "Automaticky (dotázat se frontendu)"
@@ -708,10 +692,6 @@ msgstr "-6 dB (největší dynamický rozsah)"
 msgctxt "#30173"
 msgid "The viewing-environment compensation from the ACES 2.0 transform: dim is the reference assumption and the previous fixed behaviour; dark suits a lights-off room, average a bright one. Changing it re-solves the transform tables. Only affects the aces2full curve."
 msgstr "Kompenzace prostředí pro sledování z transformace ACES 2.0: tlumené je referenční předpoklad a předchozí pevné chování; tmavé se hodí do místnosti bez světel, průměrné do světlé místnosti. Změna znovu vypočítá tabulky transformace. Ovlivňuje pouze křivku aces2full."
-
-msgctxt "#30174"
-msgid "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression works by pulling out-of-range colour onto a boundary, so the boundary should be the one the display actually has. Most HDR displays are close to P3, which covers about 72% of Rec.2020 - leaving this at Rec.2020 on such a panel means the compression stops short and the panel clips the difference itself, which is the harsh clipping the transform exists to avoid. Rec.709 is for an SDR-gamut display. Only affects the full transform; no other roll-off has a gamut to limit to."
-msgstr "Který gamut má úplná transformace ACES 2.0 komprimovat. Komprese gamutu stahuje barvy mimo rozsah na hranici, proto by hranice měla odpovídat skutečnému gamutu displeje. Většina HDR displejů je blízko P3, který pokrývá přibližně 72 % Rec.2020 – ponechání Rec.2020 na takovém panelu znamená, že komprese skončí příliš brzy a panel rozdíl ořízne sám; právě tomuto ostrému ořezu má transformace zabránit. Rec.709 je určen pro displej s gamutem SDR. Ovlivňuje pouze úplnou transformaci; žádná jiná roll-off křivka nemá gamut, který by bylo třeba omezovat."
 
 msgctxt "#30175"
 msgid "Rec.2020 (widest)"
@@ -1036,6 +1016,26 @@ msgstr "5120x1440"
 msgctxt "#30255"
 msgid "7680x2160"
 msgstr "7680x2160"
+
+#~ msgctxt "#30050"
+#~ msgid "Choose the desired frame rate."
+#~ msgstr "Zvolit požadovanou snímkovou frekvenci."
+
+#~ msgctxt "#30078"
+#~ msgid "24-bit is the standard XRGB8888 output. 30-bit Color (HDR) renders into a 10-bit surface and emits HDR10 (PQ, Rec.2020): use with the frontend's HDR output enabled on an HDR display. The conversion honors the frontend's paper white, peak luminance, and Colour Boost settings, and dithers the 10-bit quantization. 24-bit tone-mapped runs that same scene pipeline - curves, bloom, every enhancement - encoded to the stock 24-bit surface: the full transform family on any SDR display, with no HDR frontend support needed."
+#~ msgstr "24bitový formát je standardní výstup XRGB8888. 30bitové barvy (HDR) vykreslují do 10bitové plochy a vysílají HDR10 (PQ, Rec.2020): použijte s povoleným HDR výstupem frontendu na HDR displeji. Převod respektuje nastavení frontendu pro referenční bílou, špičkový jas a zvýraznění barev a provádí dithering 10bitové kvantizace. 24bitové tónové mapování používá stejnou scénovou pipeline – křivky, záři i všechna vylepšení – kódovanou do standardní 24bitové plochy: celou rodinu transformací na libovolném SDR displeji bez potřeby podpory HDR frontendu."
+
+#~ msgctxt "#30081"
+#~ msgid "30-bit Color (HDR)"
+#~ msgstr "30bitové barvy (HDR)"
+
+#~ msgctxt "#30129"
+#~ msgid "Overrides the peak brightness the frontend reports. ACES 2.0's tone scale is parameterised by this single number and rebuilds when it moves, so it retargets the whole transform rather than just scaling the output - mid grey lands on 10.0 nits at a 100 nit peak, 14.5 at 1000 and 17.8 at 10000, with the roll-off adjusting to match. Leave on Auto unless the frontend reports nothing, in which case it falls back to 1000, or unless your display's real peak differs from what it claims. Only the full ACES 2.0 transform uses it; the other roll-offs have no notion of an absolute peak. HDR10 output only: the 24-bit tone-mapped mode fixes the display at the 100-nit SDR reference."
+#~ msgstr "Přepisuje špičkový jas nahlášený frontendem. Tónová škála ACES 2.0 je parametrizována tímto jediným číslem a při jeho změně se znovu sestaví, takže se přepracuje celá transformace místo pouhého škálování výstupu – střední šedá dopadne na 10.0 nitů při špičce 100 nitů, 14.5 při 1000 a 17.8 při 10000, přičemž posun světlých míst se přizpůsobí. Ponechte Automaticky, pokud frontend nic nehlásí, použijte 1000, nebo pokud se skutečná špička displeje liší od nahlášené hodnoty. Používá ji pouze úplná transformace ACES 2.0; ostatní posuny nemají pojem absolutní špičky. Pouze výstup HDR10: režim 24bitového tónového mapování nastaví displej na referenčních 100 nitů SDR."
+
+#~ msgctxt "#30174"
+#~ msgid "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression works by pulling out-of-range colour onto a boundary, so the boundary should be the one the display actually has. Most HDR displays are close to P3, which covers about 72% of Rec.2020 - leaving this at Rec.2020 on such a panel means the compression stops short and the panel clips the difference itself, which is the harsh clipping the transform exists to avoid. Rec.709 is for an SDR-gamut display. Only affects the full transform; no other roll-off has a gamut to limit to."
+#~ msgstr "Který gamut má úplná transformace ACES 2.0 komprimovat. Komprese gamutu stahuje barvy mimo rozsah na hranici, proto by hranice měla odpovídat skutečnému gamutu displeje. Většina HDR displejů je blízko P3, který pokrývá přibližně 72 % Rec.2020 – ponechání Rec.2020 na takovém panelu znamená, že komprese skončí příliš brzy a panel rozdíl ořízne sám; právě tomuto ostrému ořezu má transformace zabránit. Rec.709 je určen pro displej s gamutem SDR. Ovlivňuje pouze úplnou transformaci; žádná jiná roll-off křivka nemá gamut, který by bylo třeba omezovat."
 
 #~ msgctxt "#30020"
 #~ msgid "HDR Highlight Roll-Off"

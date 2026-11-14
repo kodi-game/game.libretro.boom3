@@ -15,6 +15,45 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
+				<setting id="doom_renderer" type="string" label="30256" help="30257">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30051">auto</option>
+							<option label="30258">arb2</option>
+							<option label="30259">es2</option>
+							<option label="30260">es3</option>
+							<option label="30261">es31</option>
+							<option label="30262">vulkan</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_vulkan_render_thread" type="string" label="30263" help="30264">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30087">enabled</option>
+							<option label="30088">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_arb2_tier" type="string" label="30265" help="30266">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30051">auto</option>
+							<option label="30267">arb</option>
+							<option label="30268">nv4</option>
+							<option label="30269">nv5</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="doom_shadow_smoothing" type="string" label="30008" help="30049">
 					<level>0</level>
 					<default>disabled</default>
@@ -26,7 +65,40 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="doom_framerate" type="string" label="30001" help="30050">
+				<setting id="doom_static_shadows" type="string" label="30270" help="30271">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_fog_lights" type="string" label="30272" help="30273">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_blend_lights" type="string" label="30274" help="30275">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_framerate" type="string" label="30001" help="30276">
 					<level>0</level>
 					<default>auto</default>
 					<constraints>
@@ -79,14 +151,15 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="doom_color_format" type="string" label="30010" help="30078">
+				<setting id="doom_color_format" type="string" label="30010" help="30277">
 					<level>0</level>
 					<default>24bit</default>
 					<constraints>
 						<options>
 							<option label="30079">24bit</option>
 							<option label="30080">24bit-tonemapped</option>
-							<option label="30081">30bit-hdr</option>
+							<option label="30278">30bit-hdr</option>
+							<option label="30279">16bit-scrgb</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -217,6 +290,17 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
+				<setting id="doom_particle_resolution" type="string" label="30280" help="30281">
+					<level>0</level>
+					<default>full</default>
+					<constraints>
+						<options>
+							<option label="30282">full</option>
+							<option label="30283">half</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="doom_hdr_chromatic" type="string" label="30027" help="30108">
 					<level>0</level>
 					<default>disabled</default>
@@ -303,12 +387,13 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="doom_hdr_peak" type="string" label="30033" help="30129">
+				<setting id="doom_hdr_peak" type="string" label="30033" help="30284">
 					<level>0</level>
 					<default>auto</default>
 					<constraints>
 						<options>
 							<option label="30130">auto</option>
+							<option label="30285">display</option>
 							<option label="30131">400</option>
 							<option label="30132">600</option>
 							<option label="30133">1000</option>
@@ -399,11 +484,12 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="doom_hdr_aces2_gamut" type="string" label="30038" help="30174">
+				<setting id="doom_hdr_aces2_gamut" type="string" label="30038" help="30286">
 					<level>0</level>
-					<default>rec2020</default>
+					<default>auto</default>
 					<constraints>
 						<options>
+							<option label="30287">auto</option>
 							<option label="30175">rec2020</option>
 							<option label="30176">p3</option>
 							<option label="30177">rec709</option>
